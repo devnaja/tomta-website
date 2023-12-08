@@ -8,7 +8,6 @@ import Clients from "components/Home/Clients2";
 import Partners from "components/Home/Partners";
 import Feedback from "components/Home/Feedback";
 import LoadingPage from "components/Loading";
-import DemoForm from "components/Demo/DemoForm";
 
 function Homepage() {
   const [isLoading, setIsLoading] = useState(true);

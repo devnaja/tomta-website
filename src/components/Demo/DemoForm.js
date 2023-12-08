@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import emailjs from "@emailjs/browser";
 
 const DemoForm = ({ isOpen, isClose, details }) => {

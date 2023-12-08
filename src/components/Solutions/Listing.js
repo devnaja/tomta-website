@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import DemoForm from "components/Demo/DemoForm";
 
 import * as data from "data/solutions.json";
 import Modal from "./Modal";
@@ -45,14 +44,14 @@ function Listing() {
               <div className="p-1 bg-blue-200"></div>
               <div className="">
                 <img
-                  alt="ad-img"
+                  alt="adImg"
                   className="w-full"
                   src="https://via.placeholder.com/300x200/EDEAE8"
                   style={{ display: isLoading ? "block" : "none" }}
                 />
                 <img
                   src={list.image}
-                  alt="image"
+                  alt="solution"
                   className="w-full h-64"
                   style={{ display: isLoading ? "none" : "block" }}
                   onLoad={onLoad}

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import waze from "assets/images/waze.jpg";
 import maps from "assets/images/maps.png";
 import linkedin from "assets/images/linkedin.png";
@@ -13,7 +13,6 @@ function Footer() {
   return (
     <div className="text-center px-5 md:px-20 py-5 md:py-10 bg-primary text-white">
       <div className="contact-page grid lg:grid-cols-3 gap-5">
-        {/* <div className="md:columns-3 gap-10"> */}
         <div className="text-left grid align-center">
           <p className="uppercase font-bold">Tomta Technology</p>
           <div>
@@ -63,21 +62,28 @@ function Footer() {
           <a
             href={`https://waze.com/ul?ll=3.1371933537985446,101.6224789688114&navigate=yes`}
             target="_blank"
+            rel="noreferrer"
           >
-            <img className="w-1/2 rounded-full m-auto" src={waze} />
+            <img className="w-1/2 rounded-full m-auto" src={waze} alt="waze" />
           </a>
 
           <a
             href={`https://www.google.com/maps/dir//3.1369193,101.6225527/@3.1369193,101.6199778,17z?entry=ttu`}
             target="_blank"
+            rel="noreferrer"
           >
-            <img className="w-1/2 rounded-full m-auto" src={maps} />
+            <img className="w-1/2 rounded-full m-auto" src={maps} alt="maps" />
           </a>
           <a
             href={`https://my.linkedin.com/company/tomta-technology-sdn-bhd?trk=public_profile_topcard-current-company`}
             target="_blank"
+            rel="noreferrer"
           >
-            <img className="w-1/2 rounded-full m-auto" src={linkedin} />
+            <img
+              className="w-1/2 rounded-full m-auto"
+              src={linkedin}
+              alt="linkedin"
+            />
           </a>
         </div>
       </div>

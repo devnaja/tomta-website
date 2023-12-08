@@ -1,12 +1,9 @@
 import Banner from "components/BannerBg";
 import bannerImg from "assets/images/banner1.jpg";
 import React from "react";
-import { useParams } from "react-router-dom";
 import MainLayout from "layouts/MainLayout";
 
 function ProcessAutomation() {
-  const { id } = useParams();
-  //   const { additionalParam } = location.state || {};
   return (
     <MainLayout>
       <div>

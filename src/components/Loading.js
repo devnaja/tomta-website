@@ -7,7 +7,7 @@ const LoadingPage = () => {
       <div className="grid gap-2">
         <div className="flex items-center justify-center ">
           <div className="w-28 h-28 rounded-full animate-bounce">
-            <img src={logo} />
+            <img src={logo} alt="logo" />
           </div>
         </div>
       </div>

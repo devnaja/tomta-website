@@ -9,7 +9,6 @@ import Products from "pages/Products/index";
 import ApplicationDevelopment from "pages/Solutions/ApplicationDevelopment";
 import ProcessAutomation from "pages/Solutions/ProcessAutomation";
 import SystemIntegration from "pages/Solutions/SystemIntegration";
-import MachineLearning from "pages/Solutions/MachineLearning";
 import LoyaltyApp from "pages/Products/LoyaltyApp";
 import Invoice from "pages/Products/Invoice";
 
@@ -20,7 +19,6 @@ import PrivacyPolicy from "components/Policies/PrivacyPolicy";
 import "./input.css";
 
 function App() {
-  const admin = true;
   useEffect(() => emailjs.init("f8yC5xGpMK9t62NYi"), []);
   useEffect(() => {
     // 👇️ scroll to top on page load

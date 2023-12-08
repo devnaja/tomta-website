@@ -3,7 +3,7 @@ import logo from "assets/images/logo/logo-ori-transparent.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import * as data from "data/menu.json";
 import "input.css";
 
