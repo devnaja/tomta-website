@@ -1,0 +1,19 @@
+{
+  "lists": [
+    {
+      "id": "solutions",
+      "title": "Our Solutions",
+      "list": []
+    },
+    {
+      "id": "products",
+      "title": "Our Products",
+      "list": []
+    },
+    {
+      "id": "about",
+      "title": "About Us",
+      "list": []
+    }
+  ]
+}

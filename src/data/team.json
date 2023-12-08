@@ -1,0 +1,22 @@
+{
+  "team": [
+    {
+      "name": "Naja Nadhirah",
+      "image": "assets/images/banner1.jpg",
+      "position": "Web Developer",
+      "desc": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+    },
+    {
+      "name": "John Doe",
+      "image": "assets/images/team/team-2.jpg",
+      "position": "Web Designer",
+      "desc": " Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC."
+    },
+    {
+      "name": "Naja Nadhirah",
+      "image": "assets/images/team/team-3.jpg",
+      "position": "Functional Tester",
+      "desc": "This book is a treatise on the theory of ethics, very popular during the Renaissance. "
+    }
+  ]
+}
