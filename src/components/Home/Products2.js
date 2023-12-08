@@ -18,7 +18,10 @@ function Products() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {menuList.lists.map((list, i) => (
           <NavLink to={"/products/" + list.id}>
-            <div className=" h-full  overflow-hidden rounded-xl border shadow-primary">
+            <div
+              className=" h-full  overflow-hidden rounded-xl border shadow-primary"
+              key={i}
+            >
               <div className=" w-full h-full">
                 <div className="mb-8 rounded">
                   <img

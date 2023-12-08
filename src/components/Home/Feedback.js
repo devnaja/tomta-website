@@ -40,7 +40,10 @@ function Feedback() {
           className="mySwiper"
         >
           {menuList.lists.map((list, i) => (
-            <SwiperSlide className="flex justify-center items-center w-full">
+            <SwiperSlide
+              className="flex justify-center items-center w-full"
+              key={i}
+            >
               <div className="border-2 rounded-2xl bg-white dark:bg-gray-900">
                 <p className="text-gray-700 dark:text-gray-300 px-10 pt-10">
                   I absolutely love Tailus! The component blocks are beautifully

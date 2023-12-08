@@ -46,7 +46,7 @@ function App() {
         <Route path="/products" element={<Products />} />
         <Route path="/products/loyalty-app" element={<LoyaltyApp />} />
         <Route path="/products/e-invoice" element={<Invoice />} />
-        <Route path="/" element={<Homepage />} />
+        <Route path="/tomta-website" element={<Homepage />} />
         <Route path="/about" element={<About />} />
 
         <Route path="/termscondition" element={<TermsCondition />} />
