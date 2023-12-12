@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tomta-website/static/css/main.b7c96fe4.css",
-    "main.js": "/tomta-website/static/js/main.dca23221.js",
+    "main.js": "/tomta-website/static/js/main.31060826.js",
     "static/media/app-dev1.jpg": "/tomta-website/static/media/app-dev1.c890f4c1203cf0063cae.jpg",
     "static/media/banner1.jpg": "/tomta-website/static/media/banner1.da47e9e265bf3ffcefe5.jpg",
     "static/media/logo-ori-transparent.png": "/tomta-website/static/media/logo-ori-transparent.051d51eeffcf2857a6f1.png",
@@ -26,10 +26,10 @@
     "static/media/accumulative.png": "/tomta-website/static/media/accumulative.63a88ddce92afff30414.png",
     "index.html": "/tomta-website/index.html",
     "main.b7c96fe4.css.map": "/tomta-website/static/css/main.b7c96fe4.css.map",
-    "main.dca23221.js.map": "/tomta-website/static/js/main.dca23221.js.map"
+    "main.31060826.js.map": "/tomta-website/static/js/main.31060826.js.map"
   },
   "entrypoints": [
     "static/css/main.b7c96fe4.css",
-    "static/js/main.dca23221.js"
+    "static/js/main.31060826.js"
   ]
 }
