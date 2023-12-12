@@ -12,12 +12,7 @@
       "image": "/images/invoice.jpg",
       "desc": "An electronic invoice (eInvoice) is an invoice that has been issued, transmitted and received in a structured data format which allows for its automatic and electronic processing."
     },
-    {
-      "id": "mobile-warehouse",
-      "title": "Mobile Warehouse",
-      "image": "/images/mobile-warehouse-2.png",
-      "desc": "Mobile warehousing refers to a system equipped with facilities for storing goods. It encompasses both software and processes designed to enable organizations to efficiently oversee warehouse operations, starting from the entry of goods or materials to their eventual departure."
-    },
+
     {
       "id": "rpa",
       "title": "Robotic Process Automation (RPA)",

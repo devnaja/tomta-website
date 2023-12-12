@@ -6,6 +6,7 @@ import Header from "components/Products/LoyaltyApp/Header";
 import Benefits from "components/Products/LoyaltyApp/Benefits";
 import Features from "components/Products/LoyaltyApp/Features";
 import Details from "components/Products/LoyaltyApp/Details";
+import SectionOne from "components/SectionOne";
 import { useNavigate } from "react-router-dom";
 
 function LoyaltyApp() {
@@ -55,6 +56,10 @@ function LoyaltyApp() {
           <Details />
         </div>
       </div>
+      <SectionOne
+        title="Get Started with E-Invoice in Your Business Today"
+        desc="Just click on the floating button below, and send us your questions or concerns then we will give you the help you need."
+      />
     </MainLayout>
   );
 }

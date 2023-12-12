@@ -19,7 +19,7 @@ function Products() {
         {menuList.lists.map((list, i) => (
           <NavLink to={"/products/" + list.id}>
             <div
-              className=" h-full  overflow-hidden rounded-xl border shadow-primary"
+              className="h-full overflow-hidden rounded-xl border shadow-primary"
               key={i}
             >
               <div className=" w-full h-full">
@@ -31,7 +31,7 @@ function Products() {
                     style={{ display: isLoading ? "block" : "none" }}
                   />
                   <img
-                    src={list.image}
+                    src={process.env.PUBLIC_URL + list.image}
                     alt="products"
                     className="w-full h-64"
                     style={{ display: isLoading ? "none" : "block" }}

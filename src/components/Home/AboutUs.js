@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import aboutImage from "../../assets/images/about.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareUpRight } from "@fortawesome/free-solid-svg-icons";
@@ -25,7 +25,7 @@ function About() {
           <img src={aboutImage} alt="About" className="mx-auto" />
         </div>
         <div className="flex">
-          <div className="my-5 my-auto">
+          <div className=" my-auto">
             <div className="uppercase font-bold text-3xl mb-5">About Us </div>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -47,17 +47,11 @@ function About() {
                 size="lg"
               />
             </div>
-           </div>
+          </div>
         </div>
       </div>
 
-      {isModalOpen && (
-              <DemoForm
-                isOpen={isModalOpen}
-                isClose={closeModal}
-              />
-            )}
-
+      {isModalOpen && <DemoForm isOpen={isModalOpen} isClose={closeModal} />}
     </div>
   );
 }
