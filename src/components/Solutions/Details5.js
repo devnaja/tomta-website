@@ -3,7 +3,7 @@ import headerImage from "assets/images/machine-learning.jpeg";
 
 function Details5() {
   return (
-    <section className="relative m-auto py-5">
+    <section className="relative m-auto lg:py-5">
       <div className="items-center flex flex-wrap">
         <div className="w-full md:w-4/12 m-auto my-3 p-2 bg-black">
           <img alt="..." className=" lg:py-0" src={headerImage} />

@@ -14,26 +14,41 @@ function LoyaltyApp() {
     <MainLayout>
       <Banner image={bannerImg} text="Our Solutions" />
       <div className="bg-red-50">
-        <div className="max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-3 md:py-10">
+        <div
+          id="application-development"
+          className="max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-3 md:py-10"
+        >
           <Details1 />
         </div>
         <div className="bg-red-50">
-          <div className="max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-3 md:py-10">
+          <div
+            id="process-automation"
+            className="max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-3 md:py-10"
+          >
             <Details2 />
           </div>
         </div>
         <div className="bg-red-50">
-          <div className="max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-3 md:py-10">
+          <div
+            id="system-integration"
+            className="max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-3 md:py-10"
+          >
             <Details3 />
           </div>
         </div>
         <div className="bg-red-50">
-          <div className="max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-3 md:py-10">
+          <div
+            id="data-analytics"
+            className="max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-3 md:py-10"
+          >
             <Details4 />
           </div>
         </div>
         <div className="bg-red-50">
-          <div className="max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-3 md:py-10">
+          <div
+            id="machine-learning"
+            className="max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-3 md:py-10"
+          >
             <Details5 />
           </div>
         </div>

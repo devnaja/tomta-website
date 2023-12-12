@@ -1,12 +1,14 @@
 import React from "react";
-import product1 from "../../assets/images/insidescoop-product.png";
-import product2 from "../../assets/images/product2.jpg";
-import product3 from "../../assets/images/product3.jpg";
+import product1 from "assets/images/insidescoop-product.png";
+import product2 from "assets/images/insidescoop-product.png";
+import product3 from "assets/images/insidescoop-product.png";
 
 function Product() {
   return (
     <div className="min-h-screen text-center mx-5 md:mx-20 py-5 md:py-10">
-      <div className="font-extrabold md:text-5xl mb-8 uppercase">Our Products</div>
+      <div className="font-extrabold md:text-5xl mb-8 uppercase">
+        Our Products
+      </div>
       <div className="lg:w-1/2 mx-auto my-5">
         There are many variations of passages of Lorem Ipsum available, but the
         majority have suffered alteration in some form, by injected humour, or

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import MainLayout from "layouts/MainLayout";
 import HomeBanner from "components/Home/hero-banner-2";
-// import Solutions from "components/Home/Solutions";
 import Solutions from "components/Solutions/Listing";
 import Products from "components/Home/Products2";
 import Clients from "components/Home/Clients2";

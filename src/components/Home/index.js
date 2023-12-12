@@ -4,7 +4,6 @@ import About from "../../components/Home/AboutUs";
 import Solutions from "./Solutionssss";
 import Product from "../../components/Home/Product";
 import Team from "../../components/Home/Team";
-// import Contact from "../ContactUs";
 
 function Home() {
   return (
@@ -14,7 +13,6 @@ function Home() {
       <Solutions />
       <Product />
       <Team />
-      {/* <Contact /> */}
     </React.Fragment>
   );
 }

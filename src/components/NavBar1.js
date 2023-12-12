@@ -35,7 +35,7 @@ const NavBar1 = (dropdownOpen) => {
                   className="w-10 md:w-20 xl:w-30 flex"
                   alt="Logo"
                 />
-                <p className="my-auto text-center ml-2 font-bold uppercase p-0 text-2xl md:text-base text-button leading-none">
+                <p className="my-auto text-center ml-2 uppercase p-0 text-title text-button">
                   TOMTA
                 </p>
               </div>

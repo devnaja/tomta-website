@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-
+import { HashLink } from "react-router-hash-link";
 import * as data from "data/solutions.json";
 
 function Listing() {
@@ -15,8 +15,11 @@ function Listing() {
     <div>
       <div className="flex justify-center items-center">
         <div className="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-3 gap-5 space-y-4 md:space-y-0 ">
+          {/* <HashLink to="/solutions/listing#machine-learning">
+            Link to Hash Fragment
+          </HashLink> */}
           {menuList.lists.map((list, i) => (
-            <NavLink to={"/solutions/listing"}>
+            <HashLink smooth to={`/solutions/listing#${list.id}`}>
               <div
                 key={list.id}
                 className="bg-white rounded-lg h-full overflow-hidden shadow-lg transition-transform transform hover:scale-105"
@@ -50,7 +53,7 @@ function Listing() {
                   </span>
                 </div>
               </div>
-            </NavLink>
+            </HashLink>
           ))}
         </div>
       </div>

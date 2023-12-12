@@ -3,7 +3,7 @@ import headerImage from "assets/images/data-analytics-1.jpg";
 
 function Details4() {
   return (
-    <section className="relative m-auto py-5">
+    <section className="relative m-auto lg:py-5">
       <div className="items-center flex flex-wrap">
         <div className="block lg:hidden w-full md:w-4/12 m-auto my-3 p-2 bg-black">
           <img alt="..." className="lg:py-0" src={headerImage} />

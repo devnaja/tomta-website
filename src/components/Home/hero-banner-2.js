@@ -9,13 +9,10 @@ function HeroBanner2() {
         <div className="flex flex-col items-center justify-between lg:flex-row py-16 m-auto md:mt-auto md:mb-0 text-white">
           <div className=" relative ">
             <div className=" pb-5 lg:pr-5 relative">
-              <h2 className="mb-6 md:max-w-md lg:max-w-lg text-center lg:text-left text-3xl lg:text-5xl font-bold leading-snug tracking-tight text-g1 sm:leading-snug">
+              <p className="lg:mb-6 md:max-w-md lg:max-w-lg text-center lg:text-left text-header text-g1">
                 Empowering the Future with Innovative Solutions.
-                {/* <span className="my-1 inline-block border-g4 px-4 font-bold text-g4 animate__animated animate__flash">
-                  different
-                </span> */}
-              </h2>
-              <p className="text-base max-w-lg text-center lg:text-left">
+              </p>
+              <p className="text-desc max-w-lg text-center lg:text-left">
                 Tomta, a leading technology company that specializes in
                 providing innovative and cutting-edge technological solutions
                 for businesses across various industries.

@@ -4,7 +4,7 @@ import emailjs from "@emailjs/browser";
 const DemoForm = ({ isOpen, isClose, details }) => {
   const [formData, setFormData] = React.useState({
     fname: "",
-    lname: "",
+    // lname: "",
     email: "",
     phone: "",
     company: "",
@@ -33,6 +33,7 @@ const DemoForm = ({ isOpen, isClose, details }) => {
       )
       .then((response) => {
         alert("Email sent successfully:", response);
+        isClose();
       })
       .catch((error) => {
         alert("Error sending email:", error);
@@ -41,17 +42,17 @@ const DemoForm = ({ isOpen, isClose, details }) => {
 
   return (
     // <div className="w-full px-5 lg:px-20 py-5 md:py-10">
-    <div className="fixed z-50 overflow-auto h-full inset-0 bg-black/60 flex items-center justify-center w-full text-white">
-      <div className="bg-background rounded-lg max-w-4xl w-full ">
+    <div className="fixed z-auto overflow-auto h-full inset-0 bg-black/60 flex items-center justify-center w-full text-black">
+      <div className="bg-white rounded-lg max-w-4xl w-full ">
         <form
-          className=" border-4 border-secondary rounded-lg m-auto"
+          className=" border-4 border-primary rounded-lg m-auto"
           onSubmit={handleSubmit}
         >
           <div className="md:flex h-full">
             <div className="w-full pb-10 pt-5 px-5 lg:px-10">
               <div className="flex justify-end">
                 <button
-                  className="flex top-0 right-0 text-lg font-bold cursor-pointer text-white"
+                  className="flex top-0 right-0 text-lg font-bold cursor-pointer bg-red-100 z-50 "
                   onClick={isClose}
                 >
                   X
@@ -64,10 +65,7 @@ const DemoForm = ({ isOpen, isClose, details }) => {
               </div>
               <div>
                 <div className="flex -mx-3">
-                  <div className="w-1/2 px-2 mb-3">
-                    {/* <label className="text-xs font-semibold px-1">
-                      First name
-                    </label> */}
+                  <div className="w-full px-2 mb-3">
                     <div className="flex">
                       <div className="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center">
                         <i className="mdi mdi-account-outline text-gray-400 text-lg"></i>
@@ -75,17 +73,14 @@ const DemoForm = ({ isOpen, isClose, details }) => {
                       <input
                         type="text"
                         className="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500"
-                        placeholder="First Name"
+                        placeholder="Full Name"
                         name="fname"
                         value={formData.fname}
                         onChange={handleChange}
                       />
                     </div>
                   </div>
-                  <div className="w-1/2 px-2 mb-3">
-                    {/* <label className="text-xs font-semibold px-1">
-                      Last name
-                    </label> */}
+                  {/* <div className="w-1/2 px-2 mb-3">
                     <div className="flex">
                       <div className="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center">
                         <i className="mdi mdi-account-outline text-gray-400 text-lg"></i>
@@ -99,13 +94,10 @@ const DemoForm = ({ isOpen, isClose, details }) => {
                         onChange={handleChange}
                       />
                     </div>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="flex -mx-3">
                   <div className="w-1/2 px-2 mb-3">
-                    {/* <label className="text-xs font-semibold px-1">
-                      Email
-                    </label> */}
                     <div className="flex">
                       <div className="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center">
                         <i className="mdi mdi-email-outline text-gray-400 text-lg"></i>
@@ -120,12 +112,7 @@ const DemoForm = ({ isOpen, isClose, details }) => {
                       />
                     </div>
                   </div>
-                  {/* </div>
-                <div className="flex -mx-3"> */}
                   <div className="w-1/2 px-2 mb-3">
-                    {/* <label className="text-xs font-semibold px-1">
-                      Phone
-                    </label> */}
                     <div className="flex">
                       <div className="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center">
                         <i className="mdi mdi-email-outline text-gray-400 text-lg"></i>
@@ -143,9 +130,6 @@ const DemoForm = ({ isOpen, isClose, details }) => {
                 </div>
                 <div className="flex -mx-3">
                   <div className="w-1/2 px-2 mb-3">
-                    {/* <label className="text-xs font-semibold px-1">
-                      Company
-                    </label> */}
                     <div className="flex">
                       <div className="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center">
                         <i className="mdi mdi-email-outline text-gray-400 text-lg"></i>
@@ -160,12 +144,7 @@ const DemoForm = ({ isOpen, isClose, details }) => {
                       />
                     </div>
                   </div>
-                  {/* </div>
-                <div className="flex -mx-3"> */}
                   <div className="w-1/2 px-2 mb-3">
-                    {/* <label className="text-xs font-semibold px-1">
-                      Position
-                    </label> */}
                     <div className="flex">
                       <div className="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center">
                         <i className="mdi mdi-email-outline text-gray-400 text-lg"></i>
@@ -184,7 +163,7 @@ const DemoForm = ({ isOpen, isClose, details }) => {
 
                 <div className="flex -mx-3">
                   <div className="w-full px-2 mb-3">
-                    <button className="block w-full max-w-xs mx-auto bg-indigo-500 hover:bg-indigo-700 focus:bg-indigo-700 text-white rounded-lg px-3 py-3 font-semibold">
+                    <button className="block w-full max-w-xs mx-auto bg-primary text-white rounded-lg px-3 py-3 font-semibold">
                       SUBMIT
                     </button>
                   </div>
