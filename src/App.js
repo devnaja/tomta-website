@@ -12,7 +12,7 @@ import RPA from "pages/Products/RPA";
 
 // kena tukar guna pages
 import TermsCondition from "pages/TermsCondition/index";
-import PrivacyPolicy from "components/Policies/PrivacyPolicy";
+import PrivacyPolicy from "pages/PrivacyPolicy/index";
 
 import "./input.css";
 import Listing from "pages/Solutions/SolutionDetails";

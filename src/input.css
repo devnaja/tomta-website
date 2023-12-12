@@ -52,6 +52,16 @@
     background-color: #1f2937;
 }
 
+.policies .details p{
+  line-height: 1.625;
+  letter-spacing: 0.05em;
+    font-size: 14px;
+}
+.policies .details ul li{
+  line-height: 1.625;
+  letter-spacing: 0.05em;
+    font-size: 14px;
+}
  /* svg {
   color: #2759AE;
 } */
@@ -75,13 +85,14 @@
 
 .text-desc {
   line-height: 1.625;
+  letter-spacing: 0.05em;
     font-size: 10px;
 }
 
 @media only screen and (max-width: 620px) {
   .text-header {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
   }
   .text-body {
     line-height: 1.625;
@@ -94,6 +105,17 @@
   
   .text-desc {
     line-height: 1.625;
+      font-size: 14px;
+  }
+
+  .policies .details p{
+    line-height: 1.625;
+    letter-spacing: 0.05em;
+      font-size: 14px;
+  }
+  .policies .details ul li{
+    line-height: 1.625;
+    letter-spacing: 0.05em;
       font-size: 14px;
   }
 }
@@ -118,6 +140,17 @@
     line-height: 1.625;
       font-size: 16px;
   }
+
+  .policies .details p{
+    line-height: 1.625;
+    letter-spacing: 0.05em;
+      font-size: 16px;
+  }
+  .policies .details ul li{
+    line-height: 1.625;
+    letter-spacing: 0.05em;
+      font-size: 16px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -140,6 +173,16 @@
     line-height: 1.625;
       font-size: 16px;
   }
+  .policies .details p{
+    line-height: 1.625;
+    letter-spacing: 0.05em;
+      font-size: 18px;
+  }
+  .policies .details ul li{
+    line-height: 1.625;
+    letter-spacing: 0.05em;
+      font-size: 18px;
+  }
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -158,6 +201,16 @@
     line-height: 1.625;
       font-size: 16px;
   }
+  .policies .details p{
+    line-height: 1.625;
+    letter-spacing: 0.05em;
+      font-size: 18px;
+  }
+  .policies .details ul li{
+    line-height: 1.625;
+    letter-spacing: 0.05em;
+      font-size: 18px;
+  }
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -174,6 +227,18 @@
   
   .text-desc {
     line-height: 1.625;
+      font-size: 18px;
+  }
+
+  .policies .details p{
+    line-height: 1.625;
+    letter-spacing: 0.05em;
+      font-size: 18px;
+  }
+
+  .policies .details ul li{
+    line-height: 1.625;
+    letter-spacing: 0.05em;
       font-size: 18px;
   }
 }

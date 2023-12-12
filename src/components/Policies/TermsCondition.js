@@ -1,15 +1,15 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 
 function TermsCondition() {
-    useEffect(() => {
-        // 👇️ scroll to top on page load
-        window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
-      }, []);
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
 
   return (
-    <div className="grid content-center min-h-screen text-justify leading-none md:leading-relaxed tracking-wide px-5 md:px-60 py-5 md:py-10">
-      <div className="my-5">
-        <div className="font-semibold text-4xl tracking-wider mb-3">
+    <div className="tnc grid content-center min-h-screen text-justify px-5 md:px-60 py-5 md:py-10">
+      <div className="details my-5">
+        <div className="title font-semibold text-header mb-3">
           Terms and Condition
         </div>
         <div>Welcome to Tomta!</div>
@@ -39,10 +39,8 @@ function TermsCondition() {
           therefore as referring to same.{" "}
         </p>
       </div>
-      <div className="mb-5">
-        <div className="font-semibold text-4xl tracking-wider mb-3">
-          Cookies
-        </div>
+      <div className="mb-5 details">
+        <div className="font-semibold text-header mb-3">Cookies</div>
         <p>
           We employ the use of cookies. By accessing Tomta, you agreed to use
           cookies in agreement with the Tomta's Privacy Policy.
@@ -56,40 +54,38 @@ function TermsCondition() {
         </p>
       </div>
 
-      <div className="mb-5">
-        <div className="font-semibold text-4xl tracking-wider mb-3">
-          License
-        </div>
+      <div className="mb-5 details">
+        <div className="font-semibold text-header mb-3">License</div>
         <p>
-          Unless otherwise stated, lenoxcells and/or its licensors own the
-          intellectual property rights for all material on lenoxcells. All
+          Unless otherwise stated, Tomta and/or its licensors own the
+          intellectual property rights for all material on Tomta. All
           intellectual property rights are reserved. You may access this from
-          lenoxcells for your own personal use subjected to restrictions set in
-          these terms and conditions.
+          Tomta for your own personal use subjected to restrictions set in these
+          terms and conditions.
         </p>
         <ul className="list-disc pl-10">
-          <li>Republish material from lenoxcells</li>
-          <li>Sell, rent or sub-license material from lenoxcells</li>
-          <li>Reproduce, duplicate or copy material from lenoxcells</li>
-          <li>Redistribute content from lenoxcells</li>
+          <li>Republish material from Tomta</li>
+          <li>Sell, rent or sub-license material from Tomta</li>
+          <li>Reproduce, duplicate or copy material from Tomta</li>
+          <li>Redistribute content from Tomta</li>
         </ul>
         <p className="">This Agreement shall begin on the date hereof.</p>
         <p>
           Parts of this website offer an opportunity for users to post and
           exchange opinions and information in certain areas of the website.
-          lenoxcells does not filter, edit, publish or review Comments prior to
-          their presence on the website. Comments do not reflect the views and
-          opinions of lenoxcells,its agents and/or affiliates. Comments reflect
-          the views and opinions of the person who post their views and
-          opinions. To the extent permitted by applicable laws, lenoxcells shall
-          not be liable for the Comments or for any liability, damages or
-          expenses caused and/or suffered as a result of any use of and/or
-          posting of and/or appearance of the Comments on this website.
+          Tomta does not filter, edit, publish or review Comments prior to their
+          presence on the website. Comments do not reflect the views and
+          opinions of Tomta,its agents and/or affiliates. Comments reflect the
+          views and opinions of the person who post their views and opinions. To
+          the extent permitted by applicable laws, Tomta shall not be liable for
+          the Comments or for any liability, damages or expenses caused and/or
+          suffered as a result of any use of and/or posting of and/or appearance
+          of the Comments on this website.
         </p>
         <p>
-          lenoxcells reserves the right to monitor all Comments and to remove
-          any Comments which can be considered inappropriate, offensive or
-          causes breach of these Terms and Conditions.
+          Tomta reserves the right to monitor all Comments and to remove any
+          Comments which can be considered inappropriate, offensive or causes
+          breach of these Terms and Conditions.
         </p>
         <p>You warrant and represent that:</p>
         <ul className="list-disc pl-10">
@@ -113,14 +109,14 @@ function TermsCondition() {
           </li>
         </ul>
         <p>
-          You hereby grant lenoxcells a non-exclusive license to use, reproduce,
-          edit and authorize others to use, reproduce and edit any of your
-          Comments in any and all forms, formats or media.
+          You hereby grant Tomta a non-exclusive license to use, reproduce, edit
+          and authorize others to use, reproduce and edit any of your Comments
+          in any and all forms, formats or media.
         </p>
       </div>
 
-      <div className="mb-5">
-        <div className="font-semibold text-4xl tracking-wider mb-3">
+      <div className="mb-5 details">
+        <div className="font-semibold text-header mb-3">
           Hyperlinking to our Content
         </div>
         <p>
@@ -167,8 +163,8 @@ function TermsCondition() {
           that: (a) the link would not make us look unfavorably to ourselves or
           to our accredited businesses; (b) the organization does not have any
           negative records with us; (c) the benefit to us from the visibility of
-          the hyperlink compensates the absence of lenoxcells; and (d) the link
-          is in the context of general resource information.
+          the hyperlink compensates the absence of Tomta; and (d) the link is in
+          the context of general resource information.
         </p>
         <p>
           These organizations may link to our home page so long as the link: (a)
@@ -179,7 +175,7 @@ function TermsCondition() {
         <p>
           If you are one of the organizations listed in paragraph 2 above and
           are interested in linking to our website, you must inform us by
-          sending an e-mail to lenoxcells. Please include your name, your
+          sending an e-mail to Tomta. Please include your name, your
           organization name, contact information as well as the URL of your
           site, a list of any URLs from which you intend to link to our Website,
           and a list of the URLs on our site to which you would like to link.
@@ -196,25 +192,21 @@ function TermsCondition() {
           </li>
         </ul>
         <p>
-          No use of lenoxcells’s logo or other artwork will be allowed for
-          linking absent a trademark license agreement.
+          No use of Tomta’s logo or other artwork will be allowed for linking
+          absent a trademark license agreement.
         </p>
       </div>
 
-      <div className="mb-5">
-        <div className="font-semibold text-4xl tracking-wider mb-3">
-          iFrames
-        </div>
+      <div className="mb-5 details">
+        <div className="font-semibold text-header mb-3">iFrames</div>
         <p>
           Without prior approval and written permission, you may not create
           frames around our Webpages that alter in any way the visual
           presentation or appearance of our Website.
         </p>
       </div>
-      <div className="mb-5">
-        <div className="font-semibold text-4xl tracking-wider mb-3">
-          Content Liability
-        </div>
+      <div className="mb-5 details">
+        <div className="font-semibold text-header mb-3">Content Liability</div>
         <p>
           We shall not be hold responsible for any content that appears on your
           Website. You agree to protect and defend us against all claims that is
@@ -224,8 +216,8 @@ function TermsCondition() {
           violation of, any third party rights.
         </p>
       </div>
-      <div className="mb-5">
-        <div className="font-semibold text-4xl tracking-wider mb-3">
+      <div className="mb-5 details">
+        <div className="font-semibold text-header mb-3">
           Reservation of Rights
         </div>
         <p>
@@ -237,8 +229,8 @@ function TermsCondition() {
           follow these linking terms and conditions.
         </p>
       </div>
-      <div className="mb-5">
-        <div className="font-semibold text-4xl tracking-wider mb-3">
+      <div className="mb-5 details">
+        <div className="font-semibold text-header mb-3">
           Removal of links from our website
         </div>
         <p>
@@ -254,10 +246,8 @@ function TermsCondition() {
           website is kept up to date.
         </p>
       </div>
-      <div className="mb-5">
-        <div className="font-semibold text-4xl tracking-wider mb-3">
-          Disclaimer
-        </div>
+      <div className="mb-5 details">
+        <div className="font-semibold text-header mb-3">Disclaimer</div>
         <p>
           To the maximum extent permitted by applicable law, we exclude all
           representations, warranties and conditions relating to our website and

@@ -7,7 +7,7 @@ import TermsConditionList from "components/Policies/TermsCondition";
 function TermsCondition() {
   return (
     <MainLayout>
-      <Banner image={bannerImg} text="Our Solutions" />
+      <Banner image={bannerImg} text="Terms and Condition" />
       <div className="min-h-screen max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-10 md:py-20">
         <div className=" w-full rounded-xl m-auto pb-10">
           <TermsConditionList />
