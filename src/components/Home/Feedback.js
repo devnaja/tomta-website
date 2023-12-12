@@ -18,7 +18,7 @@ function Feedback() {
 
   return (
     <div>
-      <div className="">
+      <div className="z-0">
         <Swiper
           watchSlidesProgress={true}
           slidesPerView={1}

@@ -15,14 +15,11 @@ function Listing() {
     <div>
       <div className="flex justify-center items-center">
         <div className="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-3 gap-5 space-y-4 md:space-y-0 ">
-          {/* <HashLink to="/solutions/listing#machine-learning">
-            Link to Hash Fragment
-          </HashLink> */}
           {menuList.lists.map((list, i) => (
             <HashLink smooth to={`/solutions/listing#${list.id}`}>
               <div
                 key={list.id}
-                className="bg-white rounded-lg h-full overflow-hidden shadow-lg transition-transform transform hover:scale-105"
+                className="bg-white rounded-lg h-full mb-5 lg:mb-0 overflow-hidden shadow-lg transition-transform transform hover:scale-105"
               >
                 <div className="p-1 bg-blue-200"></div>
                 <div className="">
@@ -45,7 +42,7 @@ function Listing() {
                     {list.title}
                   </p>
 
-                  <p className="text-body-color text-base px-4">{list.desc}</p>
+                  <p className=" lg:text-left text-base px-4">{list.desc}</p>
                 </div>
                 <div className="p-5 text-right">
                   <span className="text-sm font-semibold text-black">

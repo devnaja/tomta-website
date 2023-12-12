@@ -29,12 +29,12 @@ function Homepage() {
       <div className="min-h-screen max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-10 md:py-20">
         <div className="text-center w-full rounded-xl m-auto pb-10">
           <div className="text-header">Our Solutions</div>
-          <p className="text-body mx-auto my-5 text-center w-4/5">
+          <p className="text-body mx-auto my-5 text-center lg:w-4/5 ">
             Our comprehensive suite of solutions is designed to empower
             businesses, driving them toward success in the digital era.
           </p>
-          <Solutions />
         </div>
+        <Solutions />
       </div>
       <div className=" bg-red-50">
         <div className="min-h-screen max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-10 md:py-20">

@@ -88,7 +88,7 @@ function Footer() {
         </div>
       </div>
       <div className="text-center text-white px-20 py-10 bg-primary">
-        © 2021 by Tomta Technology
+        © 2023 by Tomta Technology
       </div>
     </div>
   );

@@ -19,7 +19,7 @@ function Products() {
         {menuList.lists.map((list, i) => (
           <NavLink to={"/products/" + list.id}>
             <div
-              className="h-full overflow-hidden rounded-xl border shadow-primary"
+              className="h-full overflow-hidden rounded-xl border shadow-lg "
               key={i}
             >
               <div className=" w-full h-full">
@@ -45,6 +45,11 @@ function Products() {
                     </p>
                   </div>
                   <p className="text-body-color text-base">{list.desc}</p>
+                </div>
+                <div className="p-5 text-right">
+                  <span className="text-sm font-semibold text-black">
+                    Read more &nbsp; →
+                  </span>
                 </div>
               </div>
             </div>
