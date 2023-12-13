@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tomta-website/static/css/main.3a3dbc38.css",
-    "main.js": "/tomta-website/static/js/main.85281242.js",
+    "main.css": "/tomta-website/static/css/main.0341980d.css",
+    "main.js": "/tomta-website/static/js/main.2bd30d51.js",
     "static/media/app-dev.jpg": "/tomta-website/static/media/app-dev.f322027027e268a9db28.jpg",
     "static/media/rpa.jpg": "/tomta-website/static/media/rpa.c90aee9ffdb52ddf6f62.jpg",
     "static/media/mobile-warehouse-2.png": "/tomta-website/static/media/mobile-warehouse-2.80418e967e2f6b5d8cb2.png",
@@ -33,11 +33,11 @@
     "static/media/waze.jpg": "/tomta-website/static/media/waze.9250df4d65402e4d6bf7.jpg",
     "static/media/accumulative.png": "/tomta-website/static/media/accumulative.63a88ddce92afff30414.png",
     "index.html": "/tomta-website/index.html",
-    "main.3a3dbc38.css.map": "/tomta-website/static/css/main.3a3dbc38.css.map",
-    "main.85281242.js.map": "/tomta-website/static/js/main.85281242.js.map"
+    "main.0341980d.css.map": "/tomta-website/static/css/main.0341980d.css.map",
+    "main.2bd30d51.js.map": "/tomta-website/static/js/main.2bd30d51.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a3dbc38.css",
-    "static/js/main.85281242.js"
+    "static/css/main.0341980d.css",
+    "static/js/main.2bd30d51.js"
   ]
 }
