@@ -2,6 +2,12 @@ import React from "react";
 import emailjs from "@emailjs/browser";
 
 const DemoForm = ({ isOpen, isClose, details }) => {
+  const service_id = process.env.REACT_APP_EMAIL_SERVICE_ID;
+  const template_id = process.env.REACT_APP_EMAIL_TEMPLATE_ID;
+  const public_key = process.env.REACT_APP_EMAIL_PUBLIC_KEY;
+
+  console.log("id", service_id);
+
   const [formData, setFormData] = React.useState({
     fname: "",
     // lname: "",
@@ -25,12 +31,7 @@ const DemoForm = ({ isOpen, isClose, details }) => {
     e.preventDefault();
     console.log("Form submitted:", formData);
     emailjs
-      .send(
-        "service_q3co0br",
-        "template_2wfc0so",
-        formData,
-        "f8yC5xGpMK9t62NYi"
-      )
+      .send(service_id, template_id, formData, public_key)
       .then((response) => {
         alert("Email sent successfully:", response);
         isClose();
