@@ -5,7 +5,6 @@ import Solutions from "components/Solutions/Listing";
 import Products from "components/Home/Products2";
 import Clients from "components/Home/Clients2";
 import Partners from "components/Home/Partners";
-import Feedback from "components/Home/Feedback";
 import LoadingPage from "components/Loading";
 import SectionOne from "components/SectionOne";
 

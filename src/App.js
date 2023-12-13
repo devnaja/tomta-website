@@ -9,14 +9,13 @@ import Products from "pages/Products/index";
 import LoyaltyApp from "pages/Products/LoyaltyApp";
 import Invoice from "pages/Products/Invoice";
 import RPA from "pages/Products/RPA";
+import Listing from "pages/Solutions/SolutionDetails";
+import MobileWarehouse from "pages/Products/MobileWarehouse";
 
-// kena tukar guna pages
 import TermsCondition from "pages/TermsCondition/index";
 import PrivacyPolicy from "pages/PrivacyPolicy/index";
 
 import "./input.css";
-import Listing from "pages/Solutions/SolutionDetails";
-import MobileWarehouse from "pages/Products/MobileWarehouse";
 
 function App() {
   useEffect(() => emailjs.init("f8yC5xGpMK9t62NYi"), []);
