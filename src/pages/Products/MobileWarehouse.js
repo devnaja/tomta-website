@@ -2,14 +2,13 @@ import React from "react";
 import MainLayout from "layouts/MainLayout";
 import Banner from "components/BannerBg";
 import bannerImg from "assets/images/banner1.jpg";
-import Header from "components/Products/LoyaltyApp/Header";
-import Benefits from "components/Products/LoyaltyApp/Benefits";
-import Features from "components/Products/LoyaltyApp/Features";
-import Details from "components/Products/LoyaltyApp/Details";
+import Header from "components/Products/MobileWarehouse/Header";
+import Benefits from "components/Products/MobileWarehouse/Benefits";
+import Characteristic from "components/Products/MobileWarehouse/Characteristic";
 import SectionOne from "components/SectionOne";
 import { useNavigate } from "react-router-dom";
 
-function LoyaltyApp() {
+function MobileWarehouse() {
   const navigate = useNavigate();
 
   const goBack = () => {
@@ -17,7 +16,7 @@ function LoyaltyApp() {
   };
   return (
     <MainLayout>
-      <Banner image={bannerImg} text="Loyalty Application" />
+      <Banner image={bannerImg} text="Mobile Warehousing" />
       <div className="">
         <div className="lg:min-h-screen max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-10 md:py-20">
           <div className="lg:mb-10 underline">
@@ -40,28 +39,23 @@ function LoyaltyApp() {
       <div className="bg-red-50">
         <div className="min-h-screen max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-5 md:py-20">
           <div className="text-header text-center">
-            Benefits of Developing Loyalty App
+            Benefits of Mobile Warehouse to Business
           </div>
           <Benefits />
         </div>
       </div>
       <div className="">
         <div className="min-h-screen max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-5 md:py-20">
-          <div className="text-header text-center">Features and Functions</div>
-          <Features />
-        </div>
-      </div>
-      <div className="bg-red-50">
-        <div className="lg:min-h-screen max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-5 md:py-20">
-          <Details />
+          {/* <div className="text-header text-center mb-5">Characteristics</div> */}
+          <Characteristic />
         </div>
       </div>
       <SectionOne
-        title="Get Started with Loyalty App in Your Business Today"
+        title="Get Started with RPA in Your Business Today"
         desc="Just click on the floating button below, and send us your questions or concerns then we will give you the help you need."
       />
     </MainLayout>
   );
 }
 
-export default LoyaltyApp;
+export default MobileWarehouse;

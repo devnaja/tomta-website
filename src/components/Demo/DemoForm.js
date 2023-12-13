@@ -42,7 +42,7 @@ const DemoForm = ({ isOpen, isClose, details }) => {
 
   return (
     // <div className="w-full px-5 lg:px-20 py-5 md:py-10">
-    <div className="fixed z-auto overflow-auto h-full inset-0 bg-black/60 flex items-center justify-center w-full text-black">
+    <div className="fixed z-50 overflow-auto h-full inset-0 bg-black/60 flex items-center justify-center w-full text-black">
       <div className="bg-white rounded-lg max-w-4xl w-full ">
         <form
           className=" border-4 border-primary rounded-lg m-auto"
@@ -50,17 +50,17 @@ const DemoForm = ({ isOpen, isClose, details }) => {
         >
           <div className="md:flex h-full">
             <div className="w-full pb-10 pt-5 px-5 lg:px-10">
-              <div className="flex justify-end">
-                <button
-                  className="flex top-0 right-0 text-lg font-bold cursor-pointer bg-red-100 z-50 "
-                  onClick={isClose}
-                >
+              <div
+                className="flex justify-end cursor-pointer"
+                onClick={isClose}
+              >
+                <button className="flex top-0 right-0 text-lg font-bold z-50 ">
                   X
                 </button>
               </div>
 
               <div className="text-center mb-10">
-                <h1 className="font-bold text-3xl ">GET DEMO</h1>
+                <h1 className="font-bold text-3xl cursor-pointer">GET DEMO</h1>
                 <p>Enter your information to get the demo</p>
               </div>
               <div>

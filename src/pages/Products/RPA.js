@@ -51,7 +51,7 @@ function LoyaltyApp() {
         </div>
       </div>
       <SectionOne
-        title="Get Started with E-Invoice in Your Business Today"
+        title="Get Started with RPA in Your Business Today"
         desc="Just click on the floating button below, and send us your questions or concerns then we will give you the help you need."
       />
     </MainLayout>

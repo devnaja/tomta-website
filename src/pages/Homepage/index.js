@@ -7,6 +7,7 @@ import Clients from "components/Home/Clients2";
 import Partners from "components/Home/Partners";
 import Feedback from "components/Home/Feedback";
 import LoadingPage from "components/Loading";
+import SectionOne from "components/SectionOne";
 
 function Homepage() {
   const [isLoading, setIsLoading] = useState(true);
@@ -80,12 +81,11 @@ function Homepage() {
           </div>
         </div>
       </div>
-      <div className="x`max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto  tracking-wide rounded-3xl py-10 md:py-20">
-        <div className="text-header text-center mb-10">
-          What Our Customers Are Saying
-        </div>
-        <Feedback />
-      </div>
+
+      <SectionOne
+        title="Connect with us"
+        desc="Just click on the floating button below, and send us your questions or concerns then we will give you the help you need."
+      />
     </MainLayout>
   );
 }

@@ -17,17 +17,17 @@ function Footer() {
           <p className="uppercase font-bold">Tomta Technology</p>
           <div>
             <p>Email:</p>
-            <p className="font-bold text-14">tomtatechnology.com</p>
+            <p className="font-bold text-14">sales@tomtatechnology.com</p>
           </div>
           <div>
             <p>Phone Number:</p>
-            <p className="font-bold text-14">03-3753729</p>
+            <p className="font-bold text-14">03-7731 8348</p>
           </div>
           <div>
             <div>Address:</div>
             <div className="font-bold text-14">
-              Uptown 1, 1, Jalan SS 21/58, Damansara Utama, 47400 Petaling Jaya,
-              Selangor
+              Unit 1001, Level 10, Uptown1, 1, Jalan SS 21/58, Damansara Utama,
+              47400 Petaling Jaya, Selangor
             </div>
           </div>
         </div>

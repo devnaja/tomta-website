@@ -25,7 +25,7 @@ const NavBar1 = (dropdownOpen) => {
   return (
     <div>
       <div className=" mx-auto relative">
-        <nav className="w-full z-30 absolute ">
+        <nav className="w-full z-10 absolute ">
           <div className="flex justify-between items-center mx-auto capitalize px-3 xl:px-6 py-5 xl:py-14 xs:max-w-screen-xs md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl">
             <NavLink to="/tomta-website">
               <div className="flex">

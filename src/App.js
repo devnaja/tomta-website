@@ -16,6 +16,7 @@ import PrivacyPolicy from "pages/PrivacyPolicy/index";
 
 import "./input.css";
 import Listing from "pages/Solutions/SolutionDetails";
+import MobileWarehouse from "pages/Products/MobileWarehouse";
 
 function App() {
   useEffect(() => emailjs.init("f8yC5xGpMK9t62NYi"), []);
@@ -43,6 +44,10 @@ function App() {
         <Route path="/products/loyalty-app" element={<LoyaltyApp />} />
         <Route path="/products/e-invoice" element={<Invoice />} />
         <Route path="/products/rpa" element={<RPA />} />
+        <Route
+          path="/products/mobile-warehouse"
+          element={<MobileWarehouse />}
+        />
         <Route path="/tomta-website" element={<Homepage />} />
         <Route path="/about" element={<About />} />
 
