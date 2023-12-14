@@ -17,7 +17,7 @@ function About() {
 
   return (
     <div className="min-h-screen text-center px-5 md:px-20 py-5 md:py-10 ">
-      <div className="font-bold md:text-3xl md:mb-8 uppercase lg:w-1/2 mx-auto">
+      <div className="font-header uppercase lg:w-1/2 mx-auto">
         Explore our website and discover the exciting world of TOMTA
       </div>
       <div className="about-us grid md:grid-cols-2 lg:gap-20">
@@ -26,8 +26,8 @@ function About() {
         </div>
         <div className="flex">
           <div className=" my-auto">
-            <div className="uppercase font-bold text-3xl mb-5">About Us </div>
-            <p>
+            <div className="uppercase text-title mb-5">About Us </div>
+            <p className="text-desc">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
@@ -38,7 +38,7 @@ function About() {
 
             <div
               onClick={openModal}
-              className="py-3 px-5 rounded-xl text-md font-semibold border-2 w-fit mx-auto mt-5 bg-button text-dimBlue"
+              className="py-3 px-5 rounded-xl text-md font-semibold border-2 w-fit mx-auto mt-5 bg-button"
             >
               Read More
               <FontAwesomeIcon

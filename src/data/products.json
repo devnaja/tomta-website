@@ -8,9 +8,9 @@
     },
     {
       "id": "e-invoice",
-      "title": "e-Invoice",
+      "title": "E-Invoice",
       "image": "/images/invoice.jpg",
-      "desc": "An electronic invoice (eInvoice) is an invoice that has been issued, transmitted and received in a structured data format which allows for its automatic and electronic processing."
+      "desc": "An electronic invoice (E-Invoice) is an invoice that has been issued, transmitted and received in a structured data format which allows for its automatic and electronic processing."
     },
     {
       "id": "rpa",

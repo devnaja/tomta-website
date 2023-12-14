@@ -9,21 +9,19 @@ function Details5() {
           <img alt="..." className=" lg:py-0" src={headerImage} />
         </div>
         <div className="w-full md:w-7/12 m-auto lg:px-4">
-          <div className="md:pr-12">
-            <h3 className="text-title">Machine Learning</h3>
-            <p className="mt-4 text-desc">
-              At Tomta, our machine learning services harness the power of
-              artificial intelligence to drive innovation and efficiency. We
-              specialize in creating intelligent, self-learning systems that can
-              analyze data, make predictions, and adapt to evolving scenarios.
-              Whether it's automating processes, enhancing customer experiences,
-              or optimizing decision-making, our machine learning solutions are
-              designed to propel your business into the future. Let's explore
-              how integrating machine learning can add a layer of intelligence
-              to your operations and position your organization at the forefront
-              of technological advancement.
-            </p>
-          </div>
+          <h3 className="text-title">Machine Learning</h3>
+          <p className="mt-4 text-desc">
+            At Tomta, our machine learning services harness the power of
+            artificial intelligence to drive innovation and efficiency. We
+            specialize in creating intelligent, self-learning systems that can
+            analyze data, make predictions, and adapt to evolving scenarios.
+            Whether it's automating processes, enhancing customer experiences,
+            or optimizing decision-making, our machine learning solutions are
+            designed to propel your business into the future. Let's explore how
+            integrating machine learning can add a layer of intelligence to your
+            operations and position your organization at the forefront of
+            technological advancement.
+          </p>
         </div>
       </div>
     </section>

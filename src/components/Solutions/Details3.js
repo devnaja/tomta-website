@@ -9,21 +9,18 @@ function Details3() {
           <img alt="..." className=" lg:py-0" src={headerImage} />
         </div>
         <div className="w-full md:w-7/12 m-auto lg:px-4">
-          <div className="md:pr-12">
-            <h3 className="text-title">System Integration</h3>
-            <p className="mt-4 text-desc">
-              At Tomta, we specialize in system integration services to ensure
-              that your various software and hardware components work seamlessly
-              together. Our approach is centered around enhancing efficiency,
-              eliminating silos, and fostering better collaboration across your
-              organization. Whether you're looking to integrate existing systems
-              or implement new solutions, we're dedicated to creating a cohesive
-              and interconnected IT environment. Let's discuss how our expertise
-              in system integration can simplify your processes, boost data
-              accuracy, and ultimately contribute to the success of your
-              business.
-            </p>
-          </div>
+          <h3 className="text-title">System Integration</h3>
+          <p className="mt-4 text-desc">
+            At Tomta, we specialize in system integration services to ensure
+            that your various software and hardware components work seamlessly
+            together. Our approach is centered around enhancing efficiency,
+            eliminating silos, and fostering better collaboration across your
+            organization. Whether you're looking to integrate existing systems
+            or implement new solutions, we're dedicated to creating a cohesive
+            and interconnected IT environment. Let's discuss how our expertise
+            in system integration can simplify your processes, boost data
+            accuracy, and ultimately contribute to the success of your business.
+          </p>
         </div>
       </div>
     </section>

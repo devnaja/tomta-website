@@ -13,7 +13,7 @@ function SectionOne({ title, desc }) {
         <p className="text-header w-2/3 m-auto text-center capitalize">
           {title}
         </p>
-        <p className="text-body w-full">{desc}</p>
+        <p className="text-desc w-full">{desc}</p>
       </div>
     </div>
   );

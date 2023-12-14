@@ -9,7 +9,7 @@ function Modal({ isOpen, isClose, details }) {
           <div className="w-full pb-10 pt-5 px-5 lg:px-10">
             <div className="flex justify-end">
               <button
-                className="flex top-0 right-0 text-lg font-bold cursor-pointer"
+                className="flex top-0 right-0 text-title font-bold cursor-pointer"
                 onClick={isClose}
               >
                 X

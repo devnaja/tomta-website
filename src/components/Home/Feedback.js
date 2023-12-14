@@ -44,8 +44,8 @@ function Feedback() {
               className="flex justify-center items-center w-full"
               key={i}
             >
-              <div className="border-2 rounded-2xl  dark:bg-gray-900">
-                <p className="text-gray-700 dark:text-gray-300 px-10 pt-10">
+              <div className="border-2 rounded-2xl">
+                <p className="text-desc px-10 pt-10">
                   I absolutely love Tailus! The component blocks are beautifully
                   designed and easy to use, which makes creating a great-looking
                   website a breeze.

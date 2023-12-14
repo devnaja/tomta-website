@@ -12,7 +12,7 @@ function Header() {
           <div className="text-header mb-5">
             Engaging the modern customers with loyalty Program Application
           </div>
-          <p className="text-justify leading-relaxed tracking-wide">
+          <p className="text-justify text-desc">
             A loyalty application is a mobile application designed to enhance
             customer loyalty and engagement for businesses. It serves as a
             platform through which businesses can implement and manage customer

@@ -7,7 +7,7 @@ function PrivacyPolicy() {
   }, []);
 
   return (
-    <div className="policies grid content-center min-h-screen text-justify leading-none md:leading-relaxed tracking-wide px-5 md:px-60 py-5 md:py-10">
+    <div className="policies grid content-center min-h-screen text-justify text-desc px-5 md:px-60 py-5 md:py-10">
       <div className="my-5 details">
         <div className="font-semibold text-header mb-3">
           Privacy Policy for Tomta

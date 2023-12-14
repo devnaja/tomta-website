@@ -12,7 +12,7 @@ function AboutUs() {
     <MainLayout>
       <BannerBg image={bannerImg} text={"About Us"} />
       <div className="">
-        <div className="min-h-screen max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-10 md:py-20">
+        <div className="container md:max-w-screen-xl lg:min-h-screen mx-auto grid content-center tracking-wide rounded-3xl py-10 md:py-20 px-5 md:px-8 xl:px-6">
           <div className="text-header text-center mb-3 lg:mb-10">
             Our Core Values
           </div>
@@ -20,17 +20,23 @@ function AboutUs() {
         </div>
       </div>
       <div className="bg-red-50">
-        <div className="min-h-screen max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-10 md:py-20 ">
+        <div className="container md:max-w-screen-xl lg:min-h-screen mx-auto grid content-center tracking-wide rounded-3xl py-10 md:py-20 px-5 md:px-8 xl:px-6">
+          <div className="mb-4 text-center text-header lg:hidden ">
+            Our Mission
+          </div>
           <Mission />
         </div>
       </div>
       <div className="">
-        <div className="min-h-screen max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-10 md:py-20">
+        <div className="container md:max-w-screen-xl lg:min-h-screen mx-auto grid content-center tracking-wide rounded-3xl py-10 md:py-20 px-5 md:px-8 xl:px-6">
+          <div className="mb-4 text-center text-header lg:hidden">
+            Our Vision
+          </div>
           <Vision />
         </div>
       </div>
       <div className="bg-red-50">
-        <div className="min-h-screen max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-10 md:py-20">
+        <div className="container md:max-w-screen-xl lg:min-h-screen mx-auto grid content-center tracking-wide rounded-3xl py-10 md:py-20 px-5 md:px-8 xl:px-6">
           <div className="mb-4 text-center text-header ">Our Managements</div>
           <Team />
         </div>

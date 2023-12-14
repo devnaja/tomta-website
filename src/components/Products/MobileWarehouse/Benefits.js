@@ -13,10 +13,8 @@ function Benefits() {
               <img className="rounded-t-3xl" src={cost} alt="sales" />
 
               <div className="px-8 py-5">
-                <p className="text-2xl font-extrabold text-dark-grey-900">
-                  Increased Flexibility
-                </p>
-                <p className="text-base leading-7 text-dark-grey-600 ">
+                <p className="text-title">Increased Flexibility</p>
+                <p className="text-desc ">
                   Mobile warehouse systems provide flexibility in managing
                   inventory and logistics operations. With mobile applications,
                   warehouse staff can access real-time information and perform
@@ -27,10 +25,8 @@ function Benefits() {
             <div className="border-2 flex flex-col items-center py-5 gap-3 rounded-3xl shadow-main  transition-all hover:scale-105">
               <img className=" " src={time} alt="admin" />
               <div className=" px-8 py-5 ">
-                <p className="text-2xl font-extrabold text-dark-grey-900">
-                  Improved Efficiency
-                </p>
-                <p className="text-base leading-7 text-dark-grey-600">
+                <p className="text-title">Improved Efficiency</p>
+                <p className="text-desc">
                   Real-time data access through mobile devices enables quicker
                   decision-making and enhances overall operational efficiency.
                   Warehouse employees can update inventory, track shipments, and
@@ -42,10 +38,8 @@ function Benefits() {
             <div className="border-2 flex flex-col items-center py-5 gap-3 rounded-3xl shadow-main  transition-all hover:scale-105">
               <img className="rounded-t-3xl" src={error} alt="customer" />
               <div className="px-8 py-5">
-                <p className="text-2xl font-extrabold text-dark-grey-900">
-                  Real-Time Visibility
-                </p>
-                <p className="text-base leading-7 text-dark-grey-600">
+                <p className="text-title">Real-Time Visibility</p>
+                <p className="text-desc">
                   Mobile warehouse systems provide real-time visibility into
                   inventory levels, order status, and other critical metrics.
                   This visibility helps businesses make informed decisions,

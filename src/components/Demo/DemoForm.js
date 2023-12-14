@@ -10,14 +10,11 @@ const DemoForm = ({ isOpen, isClose, details }) => {
 
   const [formData, setFormData] = React.useState({
     fname: "",
-    // lname: "",
     email: "",
     phone: "",
     company: "",
     position: "",
   });
-  // this.handleChange = this.handleChange.bind(this);
-  // this.handleSubmit = this.handleSubmit.bind(this);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -42,7 +39,6 @@ const DemoForm = ({ isOpen, isClose, details }) => {
   };
 
   return (
-    // <div className="w-full px-5 lg:px-20 py-5 md:py-10">
     <div className="fixed z-50 overflow-auto h-full inset-0 bg-black/60 flex items-center justify-center w-full text-black">
       <div className="bg-white rounded-lg max-w-4xl w-full ">
         <form
@@ -61,8 +57,10 @@ const DemoForm = ({ isOpen, isClose, details }) => {
               </div>
 
               <div className="text-center mb-10">
-                <h1 className="font-bold text-3xl cursor-pointer">GET DEMO</h1>
-                <p>Enter your information to get the demo</p>
+                <h1 className="font-bold text-3xl cursor-pointer">
+                  Connect with Us
+                </h1>
+                <p>Enter your information, we will get back to you.</p>
               </div>
               <div>
                 <div className="flex -mx-3">
@@ -81,21 +79,6 @@ const DemoForm = ({ isOpen, isClose, details }) => {
                       />
                     </div>
                   </div>
-                  {/* <div className="w-1/2 px-2 mb-3">
-                    <div className="flex">
-                      <div className="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center">
-                        <i className="mdi mdi-account-outline text-gray-400 text-lg"></i>
-                      </div>
-                      <input
-                        type="text"
-                        className="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500"
-                        placeholder="Last Name"
-                        name="lname"
-                        value={formData.lname}
-                        onChange={handleChange}
-                      />
-                    </div>
-                  </div> */}
                 </div>
                 <div className="flex -mx-3">
                   <div className="w-1/2 px-2 mb-3">

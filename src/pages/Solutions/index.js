@@ -8,8 +8,8 @@ function Homepage() {
   return (
     <MainLayout>
       <Banner image={bannerImg} text="Our Solutions" />
-      <div className="min-h-screen max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-10 md:py-20">
-        <div className=" w-full rounded-xl m-auto pb-10">
+      <div className="container md:max-w-screen-xl min-h-screen mx-auto grid content-center tracking-wide rounded-3xl py-10 md:py-20 px-5 md:px-8 xl:px-6">
+        <div className=" w-full rounded-xl m-auto">
           <ListingSolutions />
         </div>
       </div>

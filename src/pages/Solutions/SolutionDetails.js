@@ -13,47 +13,39 @@ function LoyaltyApp() {
   return (
     <MainLayout>
       <Banner image={bannerImg} text="Our Solutions" />
-      <div className="bg-red-50">
+      <div className="bg-red-50 pt-7">
         <div
           id="application-development"
-          className="max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-3 md:py-10"
+          className="container md:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-5 md:py-10 px-5 md:px-8 xl:px-6"
         >
           <Details1 />
         </div>
-        <div className="bg-red-50">
-          <div
-            id="process-automation"
-            className="max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-3 md:py-10"
-          >
-            <Details2 />
-          </div>
+        <div
+          id="process-automation"
+          className="container md:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-5 md:py-10 px-5 md:px-8 xl:px-6"
+        >
+          <Details2 />
         </div>
-        <div className="bg-red-50">
-          <div
-            id="system-integration"
-            className="max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-3 md:py-10"
-          >
-            <Details3 />
-          </div>
+        <div
+          id="system-integration"
+          className="container md:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-5 md:py-10 px-5 md:px-8 xl:px-6"
+        >
+          <Details3 />
         </div>
-        <div className="bg-red-50">
-          <div
-            id="data-analytics"
-            className="max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-3 md:py-10"
-          >
-            <Details4 />
-          </div>
+        <div
+          id="data-analytics"
+          className="container md:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-5 md:py-10 px-5 md:px-8 xl:px-6"
+        >
+          <Details4 />
         </div>
-        <div className="bg-red-50">
-          <div
-            id="machine-learning"
-            className="max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-3 md:py-10"
-          >
-            <Details5 />
-          </div>
+        <div
+          id="machine-learning"
+          className="container md:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-5 md:py-10 px-5 md:px-8 xl:px-6"
+        >
+          <Details5 />
         </div>
         <SectionOne
-          title="Get Started with E-Invoice in Your Business Today"
+          title="Connect with Us"
           desc="Just click on the floating button below, and send us your questions or concerns then we will give you the help you need."
         />
       </div>

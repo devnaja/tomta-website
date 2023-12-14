@@ -58,11 +58,11 @@ function ListingModal() {
                 />
               </div>
               <div className="">
-                <p className="p-4 lg:text-left text-xl font-bold">
+                <p className="p-4 lg:text-left text-title font-bold">
                   {list.title}
                 </p>
 
-                <p className="text-body-color text-base px-4">{list.desc}</p>
+                <p className="text-desc px-4">{list.desc}</p>
               </div>
               <div className="p-5 text-right">
                 <span className="text-sm font-semibold text-black">

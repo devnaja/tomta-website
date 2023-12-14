@@ -13,7 +13,7 @@ function Characteristic() {
             <div className="text-header mb-5 capitalize">
               flexibility of Mobile warehousing
             </div>
-            <p className="text-justify leading-relaxed tracking-wide">
+            <p className="text-justify text-desc">
               Mobile warehousing takes many forms. In some cases, it involves
               pre-loaded trailers packed with goods and ready to go. In other
               situations, it could involve barges full of seasonal items ready

@@ -8,7 +8,7 @@ function Teams() {
     <div className="py-20 bg-white">
       <div className="container mx-auto px-6 md:px-12 xl:px-32">
         <div className="grid gap-12 items-center md:grid-cols-3">
-          <div className="space-y-4 text-center">
+          <div className="text-center">
             <img
               className="w-64 h-64 mx-auto object-contain rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
               src={cto}
@@ -18,13 +18,11 @@ function Teams() {
               height=""
             />
             <div>
-              <h4 className="text-2xl">Calvin</h4>
-              <span className="block text-sm text-gray-500">
-                Chief Technology Officer
-              </span>
+              <h4 className="text-title">Calvin</h4>
+              <span className="block text-desc">Chief Technology Officer</span>
             </div>
           </div>
-          <div className="space-y-4 text-center">
+          <div className="text-center">
             <img
               className="w-64 h-64 mx-auto object-contain rounded-xl md:w-48 md:h-64 lg:w-64 lg:h-80"
               src={ceo}
@@ -34,13 +32,11 @@ function Teams() {
               height=""
             />
             <div>
-              <h4 className="text-2xl">Full Seng</h4>
-              <span className="block text-sm text-gray-500">
-                Chief Executive Officer
-              </span>
+              <h4 className="text-title">Full Seng</h4>
+              <span className="block text-desc">Chief Executive Officer</span>
             </div>
           </div>
-          <div className="space-y-4 text-center">
+          <div className="text-center">
             <img
               className="w-64 h-64 mx-auto object-contain rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
               src={coo}
@@ -50,10 +46,8 @@ function Teams() {
               height=""
             />
             <div>
-              <h4 className="text-2xl">Alan Goh</h4>
-              <span className="block text-sm text-gray-500">
-                Chief Operations Officer
-              </span>
+              <h4 className="text-title">Alan Goh</h4>
+              <span className="block text-desc">Chief Operations Officer</span>
             </div>
           </div>
         </div>

@@ -7,7 +7,7 @@ function TermsCondition() {
   }, []);
 
   return (
-    <div className="tnc grid content-center min-h-screen text-justify px-5 md:px-60 py-5 md:py-10">
+    <div className="tnc grid content-center min-h-screen text-justify px-5 md:px-60 py-5 md:py-10 text-desc">
       <div className="details my-5">
         <div className="title font-semibold text-header mb-3">
           Terms and Condition

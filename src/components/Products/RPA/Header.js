@@ -4,7 +4,7 @@ import headerImage from "assets/images/rpa1.jpg";
 function Header() {
   return (
     <div className="grid lg:grid-cols-2 ">
-      <div className="my-auto ">
+      <div className="m-auto ">
         <img src={headerImage} alt="About" className="my-5 p-2 bg-black" />
       </div>
       <div className="flex">
@@ -12,7 +12,7 @@ function Header() {
           <div className="text-header mb-5">
             What is robotic process automation?
           </div>
-          <p className="text-justify leading-relaxed tracking-wide">
+          <p className="text-justify text-desc">
             RPA stands for Robotic Process Automation. RPA is a technology that
             uses software robots or "bots" to automate repetitive and rule-based
             tasks within business processes. These bots are designed to mimic

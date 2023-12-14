@@ -4,13 +4,11 @@ import { NavLink, Link } from "react-router-dom";
 import Maps from "./Maps";
 
 function ContactUs() {
-
-  
   return (
     <div className="text-center px-5 md:px-20 py-5 md:py-10 bg-primary text-white">
       <div className="contact-page grid sm:grid-cols-3 gap-10 ">
         {/* <div className="md:columns-3 gap-10"> */}
-        <div className="text-left grid align-center">
+        <div className="text-left grid align-center text-desc">
           <p className="uppercase font-bold">Tomta Technology</p>
           <div>
             <p>Email:</p>
@@ -51,17 +49,10 @@ function ContactUs() {
         <div className="sm:my-auto">
           <img src={map} alt="Map" />
         </div>
-
-        
       </div>
       {/* <Maps /> */}
-
     </div>
   );
 }
 
-
-
 export default ContactUs;
-
-

@@ -21,7 +21,7 @@ function LoyaltyApp() {
     <MainLayout>
       <Banner image={bannerImg} text="E-Invoice" />
       <div className="">
-        <div className="min-h-screen max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-10 md:py-16">
+        <div className="container md:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-10 md:py-20 px-5 md:px-8 xl:px-16">
           <div className="lg:mb-10 underline">
             <button onClick={goBack} className="flex">
               <svg
@@ -40,31 +40,30 @@ function LoyaltyApp() {
         </div>
       </div>
       <div className="bg-red-50">
-        <div className="max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-3 md:py-10">
+        <div className="container md:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-5 md:py-10 xl:py-20 px-5 md:px-8 xl:px-16">
           <div className="text-header text-center my-8">
             How Can Our Platform Help You?
           </div>
           <Details1 />
         </div>
-      </div>
-      <div className="bg-red-50">
-        <div className="max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-3 md:py-10">
-          {/* <div className="text-header text-center">Features and Functions</div> */}
+        {/* </div>
+      <div className="bg-red-50"> */}
+        <div className="container md:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-5 md:py-10 xl:py-20 px-5 md:px-8 xl:px-16">
           <Details2 />
         </div>
-      </div>
-      <div className="bg-red-50">
-        <div className="max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-3 md:py-10">
+        {/* </div>
+      <div className="bg-red-50"> */}
+        <div className="container md:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-5 md:py-10 xl:py-20 px-5 md:px-8 xl:px-16">
           <Details3 />
         </div>
-      </div>
-      <div className="bg-red-50">
-        <div className="max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-3 md:py-10">
+        {/* </div>
+      <div className="bg-red-50"> */}
+        <div className="container md:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-5 md:py-10 xl:py-20 px-5 md:px-8 xl:px-16">
           <Details4 />
         </div>
-      </div>
-      <div className="bg-red-50">
-        <div className="max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-3 md:py-10">
+        {/* </div>
+      <div className="bg-red-50"> */}
+        <div className="container md:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-5 md:py-10 xl:py-20 px-5 md:px-8 xl:px-16">
           <Details5 />
         </div>
       </div>

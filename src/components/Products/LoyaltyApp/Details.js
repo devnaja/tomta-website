@@ -13,7 +13,7 @@ function Details() {
             <div className="text-header mb-5">
               Flexible Configuration to Suit Your Business Needs
             </div>
-            <p className="text-justify leading-relaxed tracking-wide">
+            <p className="text-justify text-desc">
               We recognize that every business is unique, and our loyalty
               application is designed with flexibility in mind. The
               implementation process includes a configuration phase where we

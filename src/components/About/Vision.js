@@ -4,13 +4,14 @@ import image1 from "assets/images/our-vision.png";
 function Vision() {
   return (
     <div className="flex flex-col items-center justify-between w-full mb-10 lg:flex-row">
-      <img alt="logo" className="lg:w-1/2 mb-5 lg:mb-0" src={image1} />
+      <img
+        alt="logo"
+        className="hidden lg:block lg:w-1/2 mb-5 lg:mb-0"
+        src={image1}
+      />
       <div className="mb-16 lg:mb-0 ">
         <div className="max-w-xl bg-red-50 py-10 lg:py-24 px-4 lg:px-10 rounded-3xl m-auto">
-          <p
-            className="text-black text-base md:text-lg leading-relaxed
-            tracking-wider"
-          >
+          <p className="text-desc">
             {" "}
             In the ever-evolving landscape of the tech industry, we aspire to be
             more than just a player; we aim to be a{" "}

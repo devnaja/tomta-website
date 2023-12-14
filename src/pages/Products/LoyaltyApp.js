@@ -19,7 +19,7 @@ function LoyaltyApp() {
     <MainLayout>
       <Banner image={bannerImg} text="Loyalty Application" />
       <div className="">
-        <div className="lg:min-h-screen max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-10 md:py-20">
+        <div className="container md:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-10 md:py-20 px-5 md:px-8 xl:px-6">
           <div className="lg:mb-10 underline">
             <button onClick={goBack} className="flex">
               <svg
@@ -38,7 +38,7 @@ function LoyaltyApp() {
         </div>
       </div>
       <div className="bg-red-50">
-        <div className="min-h-screen max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-5 md:py-20">
+        <div className="container md:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-10 md:py-20 px-5 md:px-8 xl:px-6">
           <div className="text-header text-center">
             Benefits of Developing Loyalty App
           </div>
@@ -46,13 +46,13 @@ function LoyaltyApp() {
         </div>
       </div>
       <div className="">
-        <div className="min-h-screen max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-5 md:py-20">
+        <div className="container md:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-10 md:py-20 px-5 md:px-8 xl:px-6">
           <div className="text-header text-center">Features and Functions</div>
           <Features />
         </div>
       </div>
       <div className="bg-red-50">
-        <div className="lg:min-h-screen max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-5 md:py-20">
+        <div className="container md:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-10 md:py-20 px-5 md:px-8 xl:px-6">
           <Details />
         </div>
       </div>

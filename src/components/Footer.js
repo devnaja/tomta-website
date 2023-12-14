@@ -11,84 +11,94 @@ function Footer() {
   }, []);
 
   return (
-    <div className="text-center px-5 md:px-20 py-5 md:py-10 bg-primary text-white">
-      <div className="contact-page grid lg:grid-cols-3 gap-5">
-        <div className="text-left grid align-center">
-          <p className="uppercase font-bold">Tomta Technology</p>
-          <div>
-            <p>Email:</p>
-            <p className="font-bold text-14">sales@tomtatechnology.com</p>
-          </div>
-          <div>
-            <p>Phone Number:</p>
-            <p className="font-bold text-14">03-7731 8348</p>
-          </div>
-          <div>
-            <div>Address:</div>
-            <div className="font-bold text-14">
-              Unit 1001, Level 10, Uptown1, 1, Jalan SS 21/58, Damansara Utama,
-              47400 Petaling Jaya, Selangor
+    <div className="bg-primary text-white">
+      <div className="container md:max-w-screen-xl text-desc justify-between items-center mx-auto  px-5 md:px-8 xl:px-6 py-16">
+        <div className="contact-page grid lg:grid-cols-3 gap-5">
+          <div className="text-left grid align-center">
+            <p className="uppercase font-bold">Tomta Technology</p>
+            <div>
+              <p>Email:</p>
+              <p className="font-bold text-14">sales@tomtatechnology.com</p>
+            </div>
+            <div>
+              <p>Phone Number:</p>
+              <p className="font-bold text-14">03-7731 8348</p>
+            </div>
+            <div>
+              <div>Address:</div>
+              <div className="font-bold text-14 capitalize">
+                Unit 1001, Level 10, Uptown1, 1, Jalan SS 21/58, Damansara
+                Utama, 47400 Petaling Jaya, Selangor
+              </div>
             </div>
           </div>
-        </div>
-        <div className=" md:my-1 text-left grid grid-cols-2 my-auto">
-          <div className="leading-8">
-            <p className="underline decoration-solid font-semibold mb-3">
-              Quick Links
-            </p>
-            <Link to="/about">
-              <p>About Us</p>
-            </Link>
-            <Link to="/solutions">
-              <p>Our Solutions</p>
-            </Link>
-            <Link to="/products">
-              <p>Our Products</p>
-            </Link>
+          <div className=" md:my-1 text-left grid grid-cols-2 my-auto">
+            <div className="leading-8">
+              <p className="underline decoration-solid font-semibold mb-3">
+                Quick Links
+              </p>
+              <Link to="/about">
+                <p>About Us</p>
+              </Link>
+              <Link to="/solutions">
+                <p>Our Solutions</p>
+              </Link>
+              <Link to="/products">
+                <p>Our Products</p>
+              </Link>
+            </div>
+            <div className="leading-8">
+              <p className="underline decoration-solid font-semibold mb-3">
+                Policies & Terms
+              </p>
+              <Link to="/termscondition">
+                <p>Terms & Condition</p>
+              </Link>
+              <Link to="/privacypolicy">
+                <p>Privacy Policy</p>
+              </Link>
+            </div>
           </div>
-          <div className="leading-8">
-            <p className="underline decoration-solid font-semibold mb-3">
-              Policies & Terms
-            </p>
-            <Link to="/termscondition">
-              <p>Terms & Condition</p>
-            </Link>
-            <Link to="/privacypolicy">
-              <p>Privacy Policy</p>
-            </Link>
-          </div>
-        </div>
-        <div className="flex items-center">
-          <a
-            href={`https://waze.com/ul?ll=3.1371933537985446,101.6224789688114&navigate=yes`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img className="w-1/2 rounded-full m-auto" src={waze} alt="waze" />
-          </a>
+          <div className="flex items-center">
+            <a
+              href={`https://waze.com/ul?ll=3.1371933537985446,101.6224789688114&navigate=yes`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="w-1/3 lg:w-1/2 rounded-full m-auto"
+                src={waze}
+                alt="waze"
+              />
+            </a>
 
-          <a
-            href={`https://www.google.com/maps/dir//3.1369193,101.6225527/@3.1369193,101.6199778,17z?entry=ttu`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img className="w-1/2 rounded-full m-auto" src={maps} alt="maps" />
-          </a>
-          <a
-            href={`https://my.linkedin.com/company/tomta-technology-sdn-bhd?trk=public_profile_topcard-current-company`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              className="w-1/2 rounded-full m-auto"
-              src={linkedin}
-              alt="linkedin"
-            />
-          </a>
+            <a
+              href={`https://www.google.com/maps/dir//3.1369193,101.6225527/@3.1369193,101.6199778,17z?entry=ttu`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="w-1/3 lg:w-1/2 rounded-full m-auto"
+                src={maps}
+                alt="maps"
+              />
+            </a>
+            <a
+              href={`https://my.linkedin.com/company/tomta-technology-sdn-bhd?trk=public_profile_topcard-current-company`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="w-1/3 lg:w-1/2 rounded-full m-auto"
+                src={linkedin}
+                alt="linkedin"
+              />
+            </a>
+          </div>
         </div>
-      </div>
-      <div className="text-center text-white px-20 py-10 bg-primary">
-        © 2023 by Tomta Technology
+        <div className="text-center text-white px-20 pt-10">
+          © 2023 by Tomta Technology
+        </div>
       </div>
     </div>
   );

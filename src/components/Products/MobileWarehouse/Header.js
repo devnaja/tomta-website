@@ -10,7 +10,7 @@ function Header() {
       <div className="flex">
         <div className="m-auto lg:mr-20 w-4/5">
           <div className="text-header mb-5">What is Mobile Warehouse?</div>
-          <p className="text-justify leading-relaxed tracking-wide">
+          <p className="text-justify text-desc">
             Mobile Warehouse is a system to manage and optimize warehouse
             operations. Mobile warehousing solutions often involve the use of
             mobile applications that enable real-time inventory tracking, order

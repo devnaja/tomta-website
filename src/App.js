@@ -15,10 +15,10 @@ import MobileWarehouse from "pages/Products/MobileWarehouse";
 import TermsCondition from "pages/TermsCondition/index";
 import PrivacyPolicy from "pages/PrivacyPolicy/index";
 
-import "./input.css";
-
 function App() {
-  useEffect(() => emailjs.init("f8yC5xGpMK9t62NYi"), []);
+  const public_key = process.env.REACT_APP_EMAIL_PUBLIC_KEY;
+
+  useEffect(() => emailjs.init(public_key), []);
   useEffect(() => {
     // 👇️ scroll to top on page load
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -30,15 +30,6 @@ function App() {
       <Routes>
         <Route path="/solutions" element={<Solutions />} />
         <Route path="/solutions/listing" element={<Listing />} />
-        {/* <Route
-          path="/solutions/process-automation"
-          element={<ProcessAutomation />}
-        />
-        <Route
-          path="/solutions/system-integration"
-          element={<SystemIntegration />}
-        /> */}
-        {/* <Route path="/solutions/:id" element={<ApplicationDevelopment />} /> */}
         <Route path="/products" element={<Products />} />
         <Route path="/products/loyalty-app" element={<LoyaltyApp />} />
         <Route path="/products/e-invoice" element={<Invoice />} />
