@@ -11,7 +11,7 @@ function Details2() {
         <div className="w-full md:w-7/12 m-auto lg:px-4">
           <h3 className="text-title">Process Automation</h3>
           <p className="mt-4 text-desc">
-            we specialize in process automation services designed to streamline
+            We specialize in process automation services designed to streamline
             and elevate your business operations. Our tailored solutions aim to
             reduce manual workload, minimize errors, and enhance overall
             efficiency. By automating repetitive tasks and workflows, we empower

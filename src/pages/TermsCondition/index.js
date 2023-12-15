@@ -1,7 +1,7 @@
 import React from "react";
 import MainLayout from "layouts/MainLayout";
 import Banner from "components/BannerBg";
-import bannerImg from "assets/images/banner1.jpg";
+import bannerImg from "assets/images/banner/bannerPolicies.jpg";
 import TermsConditionList from "components/Policies/TermsCondition";
 
 function TermsCondition() {

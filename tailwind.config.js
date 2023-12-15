@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     // extend: {
     backgroundImage: (theme) => ({
-      "hero-pattern": "url('/src/assets/images/banner1.jpg')",
+      "hero-pattern": "url('/src/assets/images/banner/banner1.jpg')",
       "hero-homepage": "url('/src/assets/images/bg.jpg')",
       "img-logo": "url('/src/assets/images/logo/logo-ori-transparent.png')",
     }),

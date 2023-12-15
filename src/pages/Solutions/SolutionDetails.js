@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "components/BannerBg";
-import bannerImg from "assets/images/banner1.jpg";
+import bannerImg from "assets/images/banner/aboutUsBanner.jpg";
 import MainLayout from "layouts/MainLayout";
 import Details1 from "components/Solutions/Details1";
 import Details2 from "components/Solutions/Details2";

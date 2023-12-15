@@ -20,16 +20,6 @@ function Header() {
             incentivize repeat business, encourage customer retention, and
             reward users for their ongoing loyalty to a brand or business.
           </p>
-          {/* <br></br>
-          <p className="text-justify leading-relaxed tracking-wide">
-            Our skilled developers specialize in crafting cutting-edge loyalty
-            apps, tailored to your brand’s unique requirements. With seamless
-            performance on both Android and iOS platforms, our customized
-            loyalty app will enhance customer engagement and retention, ensuring
-            unparalleled features and user satisfaction. Invest in our services
-            to create a loyalty app that fosters lasting customer relationships
-            and drives business growth.
-          </p> */}
         </div>
       </div>
     </div>

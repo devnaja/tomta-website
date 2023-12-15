@@ -19,7 +19,7 @@ function HeroBanner2() {
           </div>
           <div className="relative hidden lg:ml-32 lg:block lg:w-1/2">
             <div className="mx-auto w-fit overflow-hidden">
-              <img src={image} alt="banner" />
+              <img src={image} alt="banner" className="" />
             </div>
           </div>
         </div>

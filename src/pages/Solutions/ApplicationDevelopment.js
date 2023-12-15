@@ -1,5 +1,5 @@
 import Banner from "components/BannerBg";
-import bannerImg from "assets/images/banner1.jpg";
+import bannerImg from "assets/images/banner/aboutUsBanner.jpg";
 import React from "react";
 import image1 from "assets/images/app-dev1.jpg";
 import MainLayout from "layouts/MainLayout";

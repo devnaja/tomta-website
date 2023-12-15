@@ -1,5 +1,5 @@
 import React from "react";
-import bannerImg from "assets/images/banner1.jpg";
+import bannerImg from "assets/images/banner/bannerSection.jpg";
 
 function SectionOne({ title, desc }) {
   return (

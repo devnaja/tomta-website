@@ -9,7 +9,7 @@ import LoadingPage from "components/Loading";
 import SectionOne from "components/SectionOne";
 
 function Homepage() {
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     // Simulate an API call
