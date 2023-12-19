@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tomta-website/static/css/main.4aa19a7c.css",
-    "main.js": "/tomta-website/static/js/main.d0785c24.js",
+    "main.js": "/tomta-website/static/js/main.d2016632.js",
     "static/media/e-invoice1.jpg": "/tomta-website/static/media/e-invoice1.447ed1bced708dd5a6a4.jpg",
     "static/media/e-invoice2.jpg": "/tomta-website/static/media/e-invoice2.e84f2267b93f072a6582.jpg",
     "static/media/e-invoice4.jpg": "/tomta-website/static/media/e-invoice4.e84f2267b93f072a6582.jpg",
@@ -44,10 +44,10 @@
     "static/media/accumulative.png": "/tomta-website/static/media/accumulative.63a88ddce92afff30414.png",
     "index.html": "/tomta-website/index.html",
     "main.4aa19a7c.css.map": "/tomta-website/static/css/main.4aa19a7c.css.map",
-    "main.d0785c24.js.map": "/tomta-website/static/js/main.d0785c24.js.map"
+    "main.d2016632.js.map": "/tomta-website/static/js/main.d2016632.js.map"
   },
   "entrypoints": [
     "static/css/main.4aa19a7c.css",
-    "static/js/main.d0785c24.js"
+    "static/js/main.d2016632.js"
   ]
 }
