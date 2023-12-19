@@ -1,7 +1,7 @@
 import Products from "components/Home/Products2";
 import React from "react";
 import Banner from "components/BannerBg";
-import bannerImg from "assets/images/banner/aboutUsBanner.jpg";
+import bannerImg from "assets/images/banner/productsBanner.jpg";
 import MainLayout from "layouts/MainLayout";
 
 function Homepage() {

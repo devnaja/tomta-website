@@ -31,7 +31,13 @@ function Footer() {
             </div>
             <div className="pb-6">
               <p>Phone Number:</p>
-              <p className="">03-7731 8348</p>
+              <a
+                className="cursor-pointer underline hover:text-blue-500"
+                href="tel:03-7731 8348"
+              >
+                03-7731 8348
+              </a>
+              {/* <p className="">03-7731 8348</p> */}
             </div>
             <div className="pb-6">
               <div>Address:</div>

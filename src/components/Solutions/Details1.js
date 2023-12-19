@@ -10,9 +10,9 @@ function Details1() {
         </div>
         <div className="w-full lg:w-5/12 m-auto md:my-5 lg:py-4">
           <h3 className="text-title mb-5 lg:mb-8">Application Development</h3>
-          <p className="mt-4 text-desc text-justify">
-            At Tomta, we specialize in delivering tailored application
-            development solutions that are not just about coding but{" "}
+          <p className="mt-4 text-desc text-justify ">
+            Our expertise in delivering tailored application development
+            solutions that are not just about coding but{" "}
             <span className="font-bold text-primary">
               creating impactful digital experiences.
             </span>{" "}
