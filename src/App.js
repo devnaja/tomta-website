@@ -38,7 +38,7 @@ function App() {
           path="/products/mobile-warehouse"
           element={<MobileWarehouse />}
         />
-        <Route path="/" element={<Homepage />} />
+        <Route path="/" element={<Navigate to="/tomta-website" />} />
         <Route path="/tomta-website" element={<Homepage />} />
         <Route path="/about" element={<About />} />
 
