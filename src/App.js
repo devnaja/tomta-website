@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 
 import Homepage from "pages/Homepage/index";
@@ -26,26 +27,24 @@ function App() {
 
   // the purpose of this file is to register router only
   return (
-    <Router>
-      <Routes>
-        <Route path="/solutions" element={<Solutions />} />
-        <Route path="/solutions/listing" element={<Listing />} />
-        <Route path="/products" element={<Products />} />
-        <Route path="/products/loyalty-app" element={<LoyaltyApp />} />
-        <Route path="/products/e-invoice" element={<Invoice />} />
-        <Route path="/products/rpa" element={<RPA />} />
-        <Route
-          path="/products/mobile-warehouse"
-          element={<MobileWarehouse />}
-        />
-        <Route path="/" element={<Navigate to="/tomta-website" />} />
-        <Route path="/tomta-website" element={<Homepage />} />
-        <Route path="/about" element={<About />} />
+    // <Router>
+    <Routes>
+      <Route path="/" element={<Navigate to="/tomta-website" />} />
+      <Route path="/tomta-website" element={<Homepage />} />
+      <Route path="/solutions" element={<Solutions />} />
+      <Route path="/solutions/listing" element={<Listing />} />
+      <Route path="/products" element={<Products />} />
+      <Route path="/products/loyalty-app" element={<LoyaltyApp />} />
+      <Route path="/products/e-invoice" element={<Invoice />} />
+      <Route path="/products/rpa" element={<RPA />} />
+      <Route path="/products/mobile-warehouse" element={<MobileWarehouse />} />
 
-        <Route path="/termscondition" element={<TermsCondition />} />
-        <Route path="/privacypolicy" element={<PrivacyPolicy />} />
-      </Routes>
-    </Router>
+      <Route path="/about" element={<About />} />
+
+      <Route path="/termscondition" element={<TermsCondition />} />
+      <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+    </Routes>
+    // </Router>
   );
 }
 
