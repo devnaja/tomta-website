@@ -12,7 +12,7 @@ function CoreValues() {
             <div className="grid w-full grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
               <div className="flex flex-col items-center gap-3 px-8 py-10 bg-red-50  rounded-3xl">
                 <span>
-                  <img src={accountability} />
+                  <img src={accountability} alt="accountability" />
                 </span>
                 <p className="text-title m-2 font-semibold">Accountability</p>
                 <p className="text-desc tracking-wide text-justify">
@@ -24,7 +24,7 @@ function CoreValues() {
               </div>
               <div className="flex flex-col items-center gap-3 px-8 py-10 bg-red-50 rounded-3xl ">
                 <span>
-                  <img src={efficiency} />
+                  <img src={efficiency} alt="efficiency" />
                 </span>
                 <p className="text-title m-2 font-semibold">Efficiency</p>
                 <p className="text-desc tracking-wide text-justify">
@@ -36,7 +36,7 @@ function CoreValues() {
               </div>
               <div className="flex flex-col items-center gap-3 px-8 py-10 bg-red-50 rounded-3xl">
                 <span>
-                  <img src={positive} />
+                  <img src={positive} alt="positive" />
                 </span>
                 <p className="text-title m-2 font-semibold">
                   Positively Impactful

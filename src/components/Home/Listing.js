@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import * as data from "data/solutions.json";
 

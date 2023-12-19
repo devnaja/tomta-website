@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 // import { Routes, Route, Navigate } from "react-router-dom";
 import { Routes, Route, Navigate } from "react-router-dom";
-import emailjs from "@emailjs/browser";
 
 import Homepage from "pages/Homepage/index";
 import About from "pages/About/index";
@@ -17,9 +16,9 @@ import TermsCondition from "pages/TermsCondition/index";
 import PrivacyPolicy from "pages/PrivacyPolicy/index";
 
 function App() {
-  const public_key = process.env.REACT_APP_EMAIL_PUBLIC_KEY;
+  // const public_key = process.env.REACT_APP_EMAIL_PUBLIC_KEY;
 
-  useEffect(() => emailjs.init(public_key), []);
+  // useEffect(() => emailjs.init(public_key), []);
   useEffect(() => {
     // 👇️ scroll to top on page load
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
