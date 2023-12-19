@@ -11,9 +11,9 @@ function Details3() {
         <div className="w-full lg:w-5/12 m-auto lg:px-4">
           <h3 className="text-info mb-5 lg:mb-8">System Integration</h3>
           <p className="mt-4 text-desc text-justify">
-            At Tomta, we specialize in system integration services to ensure
-            that your various software and hardware components work seamlessly
-            together. Our approach is centered around{" "}
+            We experts in system integration services to ensure that your
+            various software and hardware components work seamlessly together.
+            Our approach is centered around{" "}
             <span className="font-bold text-primary">
               enhancing efficiency, eliminating silos, and fostering better
               collaboration

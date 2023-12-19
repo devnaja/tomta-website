@@ -38,7 +38,8 @@ function App() {
           path="/products/mobile-warehouse"
           element={<MobileWarehouse />}
         />
-        <Route path="/tomta-website" element={<Homepage />} />
+        <Route path="/" element={<Homepage />} />
+        <Route path="/tomta-technology" element={<Homepage />} />
         <Route path="/about" element={<About />} />
 
         <Route path="/termscondition" element={<TermsCondition />} />

@@ -1,7 +1,7 @@
 {
-  "name": "tomta-website",
+  "name": "tomta-technology",
   "version": "0.1.0",
-  "homepage": "https://devnaja.github.io/tomta-website",
+  "homepage": "https://devnaja.github.io/tomta-technology",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",

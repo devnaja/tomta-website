@@ -24,7 +24,7 @@ const NavBar1 = (dropdownOpen) => {
   return (
     <nav className="w-full z-10 absolute ">
       <div className="container md:max-w-screen-xl flex justify-between items-center mx-auto capitalize px-5 md:px-8 xl:px-6 py-5 xl:pt-12">
-        <NavLink to="/tomta-website">
+        <NavLink to="/">
           <div className="flex">
             <img
               src={logo}
@@ -148,7 +148,7 @@ const NavBar1 = (dropdownOpen) => {
             } fixed  z-50 left-0 bottom-0 flex w-3/4 -translate-x-full flex-col overflow-y-auto bg-primary pt-14 pb-8 sm:max-w-xs lg:w-80 h-screen`}
           >
             <div className="px-5 pb-6">
-              <NavLink to="/tomta-website">
+              <NavLink to="/">
                 <img
                   src={logo}
                   onClick={() => setActive("home")}
