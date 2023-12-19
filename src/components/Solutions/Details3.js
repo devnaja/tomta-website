@@ -6,11 +6,7 @@ function Details3() {
     <section className="relative m-auto py-5 lg:h-screen grid content-center">
       <div className="items-center flex flex-wrap">
         <div className="w-full md:w-1/2 lg:6/12 m-auto my-3 p-2 bg-black">
-          <img
-            alt="..."
-            className=" lg:py-0 w-1/2 m-auto lg:w-full"
-            src={headerImage}
-          />
+          <img alt="..." className=" lg:py-0" src={headerImage} />
         </div>
         <div className="w-full lg:w-5/12 m-auto lg:px-4">
           <h3 className="text-info mb-5 lg:mb-8">System Integration</h3>

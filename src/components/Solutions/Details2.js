@@ -6,7 +6,7 @@ function Details2() {
     <section className="relative m-auto py-5 lg:h-screen grid content-center">
       <div className="items-center flex flex-wrap">
         <div className="block lg:hidden w-full md:w-1/2 lg:6/12 m-auto my-3 p-2 bg-black">
-          <img alt="..." className="lg:py-0 w-1/2 m-auto lg:w-full" src={rpa} />
+          <img alt="..." className="lg:py-0 " src={rpa} />
         </div>
         <div className="w-full lg:w-5/12 m-auto md:my-5 lg:py-4">
           <h3 className="text-info lg:mb-8">Process Automation</h3>
