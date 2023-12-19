@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tomta-website/static/css/main.0079f08f.css",
-    "main.js": "/tomta-website/static/js/main.30c49ead.js",
+    "main.css": "/tomta-website/static/css/main.43732ce6.css",
+    "main.js": "/tomta-website/static/js/main.03630503.js",
     "static/media/e-invoice1.jpg": "/tomta-website/static/media/e-invoice1.447ed1bced708dd5a6a4.jpg",
     "static/media/e-invoice2.jpg": "/tomta-website/static/media/e-invoice2.e84f2267b93f072a6582.jpg",
     "static/media/e-invoice4.jpg": "/tomta-website/static/media/e-invoice4.e84f2267b93f072a6582.jpg",
@@ -19,9 +19,11 @@
     "static/media/machine-learning-2.jpg": "/tomta-website/static/media/machine-learning-2.8a0a46870a3761fc04e6.jpg",
     "static/media/data-analytics-2.jpg": "/tomta-website/static/media/data-analytics-2.8f6036c56f2dcd066b83.jpg",
     "static/media/banner1.jpg": "/tomta-website/static/media/banner1.da47e9e265bf3ffcefe5.jpg",
+    "static/media/productsBanner.jpg": "/tomta-website/static/media/productsBanner.ecbc44dee339e61b1854.jpg",
     "static/media/logo-ori-transparent.png": "/tomta-website/static/media/logo-ori-transparent.051d51eeffcf2857a6f1.png",
     "static/media/loyalty.jpg": "/tomta-website/static/media/loyalty.653ce15ef2ab23b1e93a.jpg",
     "static/media/bg.jpg": "/tomta-website/static/media/bg.cbd9749c5e477d8085e7.jpg",
+    "static/media/bannerPeople.jpg": "/tomta-website/static/media/bannerPeople.859438f7e87c2727c759.jpg",
     "static/media/cto.png": "/tomta-website/static/media/cto.9f02b2bc66a8d45a8da8.png",
     "static/media/ceo.png": "/tomta-website/static/media/ceo.2ff6e14155529748b402.png",
     "static/media/warehouse1.jpg": "/tomta-website/static/media/warehouse1.ce411cc3fa38cfb1546d.jpg",
@@ -41,11 +43,11 @@
     "static/media/waze.jpg": "/tomta-website/static/media/waze.9250df4d65402e4d6bf7.jpg",
     "static/media/accumulative.png": "/tomta-website/static/media/accumulative.63a88ddce92afff30414.png",
     "index.html": "/tomta-website/index.html",
-    "main.0079f08f.css.map": "/tomta-website/static/css/main.0079f08f.css.map",
-    "main.30c49ead.js.map": "/tomta-website/static/js/main.30c49ead.js.map"
+    "main.43732ce6.css.map": "/tomta-website/static/css/main.43732ce6.css.map",
+    "main.03630503.js.map": "/tomta-website/static/js/main.03630503.js.map"
   },
   "entrypoints": [
-    "static/css/main.0079f08f.css",
-    "static/js/main.30c49ead.js"
+    "static/css/main.43732ce6.css",
+    "static/js/main.03630503.js"
   ]
 }
