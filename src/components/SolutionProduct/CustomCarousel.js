@@ -1,8 +1,8 @@
 import React from "react";
-import img1 from "assets/images/service-details-1.jpg";
-import img2 from "assets/images/service-details-2.jpg";
-import img3 from "assets/images/service-details-3.jpg";
-import img4 from "assets/images/service-details-4.jpg";
+import img1 from "assets/images/e-invoice1.jpg";
+import img2 from "assets/images/e-invoice2.jpg";
+import img3 from "assets/images/e-invoice3.jpg";
+import img4 from "assets/images/e-invoice4.jpg";
 
 import { Scrollbar } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";

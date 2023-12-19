@@ -1,28 +1,28 @@
 import React from "react";
-import image1 from "../../assets/images/service-details-1.jpg";
+import image1 from "assets/images/about.jpg";
 
 const listing = [
   {
     title: "Happy Depavali",
-    image: "../../assets/images/Diwali.jpg",
+    image: "assets/images/e-invoice5.jpg",
     description:
       "The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
   },
   {
     title: "Welcome Lunch Technical Team",
-    image: {image1},
+    image: "assets/images/e-invoice5.jpg",
     description:
       "The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
   },
   {
     title: "Badminton Session",
-    image: "../../assets/images/badminton.jpg",
+    image: "assets/images/e-invoice5.jpg",
     description:
       "The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
   },
   {
     title: "Title 1",
-    image: "../../assets/images/product2.jpg",
+    image: "assets/images/e-invoice5.jpg",
     description:
       "The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
   },
@@ -30,10 +30,15 @@ const listing = [
 function ListingEvent() {
   return (
     <div className="px-5 md:px-20 py-5 md:py-10">
-      <p className="text-xl text-center lg:text-3xl font-bold uppercase mb-3 lg:mb-5">Event </p>
+      <p className="text-xl text-center lg:text-3xl font-bold uppercase mb-3 lg:mb-5">
+        Event{" "}
+      </p>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
         {listing.map((list, i) => (
-          <div key={i} className="flex flex-col bg-white rounded shadow-lg shadow-background">
+          <div
+            key={i}
+            className="flex flex-col bg-white rounded shadow-lg shadow-background"
+          >
             <div className="w-full  bg-cover rounded-t">
               <img src={image1} alt="" />
             </div>
@@ -47,9 +52,7 @@ function ListingEvent() {
                 <h1 className="mb-4 text-2xl font-bold leading-none tracking-tight text-gray-800">
                   {list.title}
                 </h1>
-                <p className="leading-normal">
-                  {list.description}
-                </p>
+                <p className="leading-normal">{list.description}</p>
                 <div className="flex flex-row items-center mt-4 text-gray-700">
                   <div className="w-1/2">Mercedes-Benz Superdome</div>
                 </div>

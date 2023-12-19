@@ -24,7 +24,7 @@ function FloatingButton() {
   return (
     <div className="group fixed bottom-0 right-0 p-12  flex items-end justify-end w-36 h-36 ">
       <div
-        class="text-white text-center font-bold shadow-lg shadow-green-900 flex items-center justify-center py-8 px-2 rounded-full bg-green-500 leading-none z-50 absolute cursor-pointer hover:-translate-1 hover:scale-110 "
+        class=" text-white text-center font-bold shadow-lg shadow-green-900 flex items-center justify-center py-8 px-2 rounded-full bg-green-500 leading-none z-50 absolute cursor-pointer hover:-translate-1 hover:scale-110 "
         onClick={openModal}
       >
         Connect Us
