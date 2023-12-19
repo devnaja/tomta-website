@@ -1,36 +1,36 @@
 {
   "files": {
     "main.css": "/tomta-website/static/css/main.4aa19a7c.css",
-    "main.js": "/tomta-website/static/js/main.c6ca285b.js",
+    "main.js": "/tomta-website/static/js/main.33336e69.js",
     "static/media/e-invoice1.jpg": "/tomta-website/static/media/e-invoice1.447ed1bced708dd5a6a4.jpg",
     "static/media/e-invoice2.jpg": "/tomta-website/static/media/e-invoice2.e84f2267b93f072a6582.jpg",
     "static/media/e-invoice4.jpg": "/tomta-website/static/media/e-invoice4.e84f2267b93f072a6582.jpg",
     "static/media/e-invoice3.jpg": "/tomta-website/static/media/e-invoice3.c91053d3099d01f177bb.jpg",
     "static/media/e-invoice5.jpg": "/tomta-website/static/media/e-invoice5.5840b8129a16c320da07.jpg",
-    "static/media/loyaltyImg.jpg": "/tomta-website/static/media/loyaltyImg.e7bf3471c9aa2fce9875.jpg",
     "static/media/mobile-warehouse-2.png": "/tomta-website/static/media/mobile-warehouse-2.80418e967e2f6b5d8cb2.png",
     "static/media/vision.jpg": "/tomta-website/static/media/vision.144764cabaeecc4a286c.jpg",
     "static/media/rpa2.jpg": "/tomta-website/static/media/rpa2.1a9670cbc2636c6ac6b0.jpg",
     "static/media/invoice1.jpg": "/tomta-website/static/media/invoice1.c40e0cfc34692b9c337f.jpg",
-    "static/media/bannerPolicies.jpg": "/tomta-website/static/media/bannerPolicies.e54bdfc2e8de47d585ee.jpg",
     "static/media/system-integration-2.jpg": "/tomta-website/static/media/system-integration-2.29375a32c3ed0445c0da.jpg",
-    "static/media/aboutUsBanner.jpg": "/tomta-website/static/media/aboutUsBanner.f95a998b3ede454730e2.jpg",
     "static/media/mission.jpg": "/tomta-website/static/media/mission.6d193b2472384851d6d8.jpg",
     "static/media/machine-learning-2.jpg": "/tomta-website/static/media/machine-learning-2.8a0a46870a3761fc04e6.jpg",
     "static/media/data-analytics-2.jpg": "/tomta-website/static/media/data-analytics-2.8f6036c56f2dcd066b83.jpg",
     "static/media/banner1.jpg": "/tomta-website/static/media/banner1.da47e9e265bf3ffcefe5.jpg",
-    "static/media/productsBanner.jpg": "/tomta-website/static/media/productsBanner.ecbc44dee339e61b1854.jpg",
     "static/media/logo-ori-transparent.png": "/tomta-website/static/media/logo-ori-transparent.051d51eeffcf2857a6f1.png",
-    "static/media/loyalty.jpg": "/tomta-website/static/media/loyalty.653ce15ef2ab23b1e93a.jpg",
     "static/media/bg.jpg": "/tomta-website/static/media/bg.cbd9749c5e477d8085e7.jpg",
-    "static/media/bannerPeople.jpg": "/tomta-website/static/media/bannerPeople.859438f7e87c2727c759.jpg",
     "static/media/cto.png": "/tomta-website/static/media/cto.9f02b2bc66a8d45a8da8.png",
     "static/media/ceo.png": "/tomta-website/static/media/ceo.2ff6e14155529748b402.png",
     "static/media/warehouse1.jpg": "/tomta-website/static/media/warehouse1.ce411cc3fa38cfb1546d.jpg",
     "static/media/coo.png": "/tomta-website/static/media/coo.0440137e28fb63881e20.png",
     "static/media/bannerSection.jpg": "/tomta-website/static/media/bannerSection.2e9e5bd3ad2be1249b45.jpg",
+    "static/media/loyalty.jpg": "/tomta-website/static/media/loyalty.6eb54be8a3c7dda1f38e.jpg",
     "static/media/rpa1.jpg": "/tomta-website/static/media/rpa1.622c068f27ebe33de213.jpg",
+    "static/media/bannerPolicies.jpg": "/tomta-website/static/media/bannerPolicies.2016a0a0db6a34b6aca9.jpg",
+    "static/media/aboutUsBanner.jpg": "/tomta-website/static/media/aboutUsBanner.38d9d636c1633e9abbef.jpg",
+    "static/media/productsBanner.jpg": "/tomta-website/static/media/productsBanner.553d75e8ac2b9d0bb115.jpg",
     "static/media/app-dev.jpg": "/tomta-website/static/media/app-dev.792e9bff5e9c6c9611cd.jpg",
+    "static/media/bannerPeople.jpg": "/tomta-website/static/media/bannerPeople.064dd7b8559e7fee4302.jpg",
+    "static/media/loyaltyImg.jpg": "/tomta-website/static/media/loyaltyImg.0184e1e97b33b4154360.jpg",
     "static/media/hero-img-5.png": "/tomta-website/static/media/hero-img-5.7a26e35c3816e014f29f.png",
     "static/media/logo-stellar.png": "/tomta-website/static/media/logo-stellar.7ee56b06c543d812c787.png",
     "static/media/logo-lenoxcells.jpg": "/tomta-website/static/media/logo-lenoxcells.770636aee6ce9ccd3a84.jpg",
@@ -44,10 +44,10 @@
     "static/media/accumulative.png": "/tomta-website/static/media/accumulative.63a88ddce92afff30414.png",
     "index.html": "/tomta-website/index.html",
     "main.4aa19a7c.css.map": "/tomta-website/static/css/main.4aa19a7c.css.map",
-    "main.c6ca285b.js.map": "/tomta-website/static/js/main.c6ca285b.js.map"
+    "main.33336e69.js.map": "/tomta-website/static/js/main.33336e69.js.map"
   },
   "entrypoints": [
     "static/css/main.4aa19a7c.css",
-    "static/js/main.c6ca285b.js"
+    "static/js/main.33336e69.js"
   ]
 }
