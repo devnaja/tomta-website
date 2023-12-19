@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImage from "assets/images/about.jpg";
+import aboutImage from "assets/images/e-invoice3.jpg";
 
 function Details3() {
   return (
@@ -11,7 +11,7 @@ function Details3() {
         <div className="w-full md:w-7/12 m-auto lg:px-4">
           <div className="md:pr-12">
             <h3 className="text-title">Fast Implementation</h3>
-            <p className="mt-4 text-desc">
+            <p className="mt-4 text-body text-justify">
               Driven by an unwavering commitment to efficiency and excellence,
               we guarantee a swift and seamless implementation process, ensuring
               your organization is up and running within a two-week timeframe.

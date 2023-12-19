@@ -14,6 +14,7 @@ const DemoForm = ({ isOpen, isClose, details }) => {
     phone: "",
     company: "",
     position: "",
+    remarks: "",
   });
 
   const handleChange = (e) => {
@@ -60,7 +61,7 @@ const DemoForm = ({ isOpen, isClose, details }) => {
                 <h1 className="font-bold text-3xl cursor-pointer">
                   Connect with Us
                 </h1>
-                <p>Enter your information, we will get back to you.</p>
+                {/* <p>Enter your information, we will get back to you.</p> */}
               </div>
               <div>
                 <div className="flex -mx-3">
@@ -142,6 +143,21 @@ const DemoForm = ({ isOpen, isClose, details }) => {
                         onChange={handleChange}
                       />
                     </div>
+                  </div>
+                </div>
+                <div className="w-full  mb-3">
+                  <div className="flex">
+                    <div className="w-10 z-10 text-center pointer-events-none flex items-center justify-center">
+                      <i className="mdi mdi-email-outline text-gray-400 text-lg"></i>
+                    </div>
+                    <textarea
+                      type="textarea"
+                      className="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500"
+                      placeholder="Write your pitch here"
+                      name="remarks"
+                      value={formData.remarks}
+                      onChange={handleChange}
+                    />
                   </div>
                 </div>
 

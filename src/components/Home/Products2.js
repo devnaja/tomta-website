@@ -36,10 +36,12 @@ function Products() {
                   style={{ display: isLoading ? "none" : "block" }}
                   onLoad={onLoad}
                 />
-                <div>
-                  <p className=" text-title p-4">{list.title}</p>
+                <div className="px-4 xl:px-8 mt-4 xl:mt-8">
+                  <p className="text-title mb-2 xl:mb-5 font-semibold">
+                    {list.title}
+                  </p>
+                  <p className="text-desc text-justify">{list.desc}</p>
                 </div>
-                <p className="text-desc px-4">{list.desc}</p>
               </div>
               <div className="p-5 text-right mt-auto">
                 <span className="text-desc font-bold">Read more &nbsp; →</span>

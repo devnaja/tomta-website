@@ -26,8 +26,8 @@ function About() {
         </div>
         <div className="flex">
           <div className=" my-auto">
-            <div className="uppercase text-title mb-5">About Us </div>
-            <p className="text-desc">
+            <div className="uppercase text-header mb-5">About Us </div>
+            <p className="text-body text-justify">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of

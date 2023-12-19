@@ -12,7 +12,7 @@ function Header() {
           <div className="text-header mb-5">
             What is robotic process automation?
           </div>
-          <p className="text-justify text-desc">
+          <p className="text-justify text-body">
             RPA stands for Robotic Process Automation. RPA is a technology that
             uses software robots or "bots" to automate repetitive and rule-based
             tasks within business processes. These bots are designed to mimic

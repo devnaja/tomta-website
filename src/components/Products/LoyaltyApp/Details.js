@@ -1,5 +1,5 @@
 import React from "react";
-import image1 from "assets/images/service-details-4.jpg";
+import image1 from "assets/images/loyaltyImg.jpg";
 
 function Details() {
   return (
@@ -13,7 +13,7 @@ function Details() {
             <div className="text-header mb-5">
               Flexible Configuration to Suit Your Business Needs
             </div>
-            <p className="text-justify text-desc">
+            <p className="text-justify text-body">
               We recognize that every business is unique, and our loyalty
               application is designed with flexibility in mind. The
               implementation process includes a configuration phase where we

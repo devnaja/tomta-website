@@ -6,7 +6,7 @@ function Clients() {
   return (
     <div>
       <div className="mt-8 lg:w-1/2 m-auto grid grid-cols-2 gap-6">
-        <div className="grid w-full transform cursor-pointer rounded-xl border border-secondary bg-white p-1 transition-all hover:scale-105 hover:border-blue-gray-100 ">
+        <div className="grid w-full transform rounded-xl border border-secondary bg-white">
           <span className="grid place-items-center">
             <img
               src={product2}
@@ -15,7 +15,7 @@ function Clients() {
             />
           </span>
         </div>
-        <div className="grid w-full min-w-[7rem] transform cursor-pointer rounded-xl border border-secondary bg-white p-1 transition-all hover:scale-105">
+        <div className="grid w-full transform rounded-xl border border-secondary bg-white">
           <span className="grid place-items-center">
             <img
               src={product1}

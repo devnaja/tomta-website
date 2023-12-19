@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImage from "assets/images/about.jpg";
+import aboutImage from "assets/images/e-invoice4.jpg";
 
 function Details4() {
   return (
@@ -11,7 +11,7 @@ function Details4() {
         <div className="w-full md:w-7/12 m-auto lg:px-4">
           <div className="md:pr-12">
             <h3 className="text-title">Easy Access</h3>
-            <p className="mt-4 text-desc">
+            <p className="mt-4 text-body">
               Designed for versatility, our platform ensures seamless
               accessibility across a spectrum of devices, from desktop computers
               to mobile devices. This adaptability not only enhances user

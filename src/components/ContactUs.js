@@ -9,7 +9,7 @@ function ContactUs() {
       <div className="contact-page grid sm:grid-cols-3 gap-10 ">
         {/* <div className="md:columns-3 gap-10"> */}
         <div className="text-left grid align-center text-desc">
-          <p className="uppercase font-bold">Tomta Technology</p>
+          <p className="uppercase font-bold">Tomta Technology Sdn Bhd</p>
           <div>
             <p>Email:</p>
             <p className="font-bold text-14">tomtatechnology.com</p>

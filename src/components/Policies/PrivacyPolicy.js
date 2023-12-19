@@ -14,7 +14,7 @@ function PrivacyPolicy() {
         </div>
         {/* <div>Welcome to Tomta!</div> */}
         <p>
-          At Tomta, accessible from https://TomtaTechnology.com/, one of our
+          At Tomta, accessible from https://tomtatechnology.com/, one of our
           main priorities is the privacy of our visitors. This Privacy Policy
           document contains types of information that is collected and recorded
           by Tomtas and how we use it.

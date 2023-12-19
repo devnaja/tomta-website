@@ -1,17 +1,18 @@
 import React from "react";
-import image1 from "assets/images/our-vision.png";
+import image1 from "assets/images/vision.jpg";
 
 function Vision() {
   return (
     <div className="flex flex-col items-center justify-between w-full mb-10 lg:flex-row">
       <img
         alt="logo"
-        className="hidden lg:block lg:w-1/2 mb-5 lg:mb-0"
+        className="lg:w-1/2 mb-5 lg:mb-0 bg-black p-2"
         src={image1}
       />
       <div className="mb-16 lg:mb-0 ">
-        <div className="max-w-xl bg-red-50 py-10 lg:py-24 px-4 lg:px-10 rounded-3xl m-auto">
-          <p className="text-desc">
+        <div className="max-w-xl px-4 lg:px-10 rounded-3xl m-auto">
+          <p className="text-header text-center lg:text-left">Our Vision</p>
+          <p className="text-body text-justify">
             {" "}
             In the ever-evolving landscape of the tech industry, we aspire to be
             more than just a player; we aim to be a{" "}

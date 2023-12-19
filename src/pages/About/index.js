@@ -21,17 +21,17 @@ function AboutUs() {
       </div>
       <div className="bg-red-50">
         <div className="container md:max-w-screen-xl lg:min-h-screen mx-auto grid content-center tracking-wide rounded-3xl py-10 md:py-20 px-5 md:px-8 xl:px-6">
-          <div className="mb-4 text-center text-header lg:hidden ">
+          {/* <div className="mb-4 text-center text-header lg:hidden ">
             Our Mission
-          </div>
+          </div> */}
           <Mission />
         </div>
       </div>
       <div className="">
         <div className="container md:max-w-screen-xl lg:min-h-screen mx-auto grid content-center tracking-wide rounded-3xl py-10 md:py-20 px-5 md:px-8 xl:px-6">
-          <div className="mb-4 text-center text-header lg:hidden">
+          {/* <div className="mb-4 text-center text-header lg:hidden">
             Our Vision
-          </div>
+          </div> */}
           <Vision />
         </div>
       </div>

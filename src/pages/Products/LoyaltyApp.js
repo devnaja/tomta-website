@@ -39,9 +39,7 @@ function LoyaltyApp() {
       </div>
       <div className="bg-red-50">
         <div className="container md:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-10 md:py-20 px-5 md:px-8 xl:px-6">
-          <div className="text-header text-center">
-            Benefits of Developing Loyalty App
-          </div>
+          <div className="text-header text-center">Benefits of Loyalty App</div>
           <Benefits />
         </div>
       </div>

@@ -16,31 +16,31 @@ function LoyaltyApp() {
       <div className="bg-red-50 pt-7">
         <div
           id="application-development"
-          className="container md:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-5 md:py-10 px-5 md:px-8 xl:px-6"
+          className="container md:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl px-5 md:px-8 xl:px-6"
         >
           <Details1 />
         </div>
         <div
           id="process-automation"
-          className="container md:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-5 md:py-10 px-5 md:px-8 xl:px-6"
+          className="container md:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl px-5 md:px-8 xl:px-6"
         >
           <Details2 />
         </div>
         <div
           id="system-integration"
-          className="container md:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-5 md:py-10 px-5 md:px-8 xl:px-6"
+          className="container md:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl px-5 md:px-8 xl:px-6"
         >
           <Details3 />
         </div>
         <div
           id="data-analytics"
-          className="container md:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-5 md:py-10 px-5 md:px-8 xl:px-6"
+          className="container md:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl px-5 md:px-8 xl:px-6"
         >
           <Details4 />
         </div>
         <div
           id="machine-learning"
-          className="container md:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl py-5 md:py-10 px-5 md:px-8 xl:px-6"
+          className="container md:max-w-screen-xl mx-auto grid content-center tracking-wide rounded-3xl px-5 md:px-8 xl:px-6"
         >
           <Details5 />
         </div>

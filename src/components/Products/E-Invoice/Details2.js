@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImage from "assets/images/about.jpg";
+import aboutImage from "assets/images/e-invoice2.jpg";
 
 function Details2() {
   return (
@@ -11,7 +11,7 @@ function Details2() {
         <div className="w-full md:w-7/12 m-auto lg:px-4">
           <div className="md:pr-12">
             <h3 className="text-title">Data Security</h3>
-            <p className="mt-4 text-desc">
+            <p className="mt-4 text-body text-justify">
               We place paramount importance on safeguarding your data through
               stringent security measures. Employing cutting-edge encryption and
               SSL technology, our platform ensures a fortified connection

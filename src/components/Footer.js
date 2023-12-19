@@ -15,18 +15,27 @@ function Footer() {
       <div className="container md:max-w-screen-xl text-desc justify-between items-center mx-auto  px-5 md:px-8 xl:px-6 py-16">
         <div className="contact-page grid lg:grid-cols-3 gap-5">
           <div className="text-left grid align-center">
-            <p className="uppercase font-bold">Tomta Technology</p>
-            <div>
-              <p>Email:</p>
-              <p className="font-bold text-14">sales@tomtatechnology.com</p>
+            <p className="uppercase font-bold pb-5 text-info">
+              Tomta Technology Sdn Bhd
+            </p>
+            <div className="pb-6">
+              <p className="">Email:</p>
+              <button
+                className="cursor-pointer underline hover:text-blue-500"
+                onClick={() =>
+                  (window.location.href = `mailto:sales@tomtatechnology.com`)
+                }
+              >
+                sales@tomtatechnology.com
+              </button>
             </div>
-            <div>
+            <div className="pb-6">
               <p>Phone Number:</p>
-              <p className="font-bold text-14">03-7731 8348</p>
+              <p className="">03-7731 8348</p>
             </div>
-            <div>
+            <div className="pb-6">
               <div>Address:</div>
-              <div className="font-bold text-14 capitalize">
+              <div className="capitalize">
                 Unit 1001, Level 10, Uptown1, 1, Jalan SS 21/58, Damansara
                 Utama, 47400 Petaling Jaya, Selangor
               </div>
@@ -38,7 +47,7 @@ function Footer() {
                 Quick Links
               </p>
               <Link to="/about">
-                <p>About Us</p>
+                <p className="">About Us</p>
               </Link>
               <Link to="/solutions">
                 <p>Our Solutions</p>
@@ -96,8 +105,8 @@ function Footer() {
             </a>
           </div>
         </div>
-        <div className="text-center text-white px-20 pt-10">
-          © 2023 by Tomta Technology
+        <div className="text-center text-white  p-5 lg:px-20 lg:pt-10">
+          © 2023 by Tomta Technology Sdn Bhd | All Rights Reserved.
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImage from "assets/images/about.jpg";
+import aboutImage from "assets/images/e-invoice5.jpg";
 
 function Details1() {
   return (
@@ -11,7 +11,7 @@ function Details1() {
         <div className="w-full md:w-7/12 m-auto lg:px-4">
           <div className="md:pr-12 text-justify lg:text-left">
             <h3 className="text-title">Peace of Mind</h3>
-            <p className="mt-4 text-desc">
+            <p className="mt-4 text-body text-justify">
               We are dedicated to upholding the ongoing compliance of our
               platform with forthcoming e-Invoicing regulations, relieving you
               of the responsibility to vigilantly monitor and address regulatory

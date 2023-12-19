@@ -2,7 +2,7 @@ import React from "react";
 import MainLayout from "layouts/MainLayout";
 import Banner from "components/BannerBg";
 import bannerImg from "assets/images/banner/aboutUsBanner.jpg";
-import ListingSolutions from "components/Solutions/Listing";
+import ListingSolutions from "components/Home/Listing";
 
 function Homepage() {
   return (

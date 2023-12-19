@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImage from "assets/images/about.jpg";
+import aboutImage from "assets/images/e-invoice1.jpg";
 
 function Details5() {
   return (
@@ -11,7 +11,7 @@ function Details5() {
         <div className="w-full md:w-7/12 m-auto lg:px-4">
           <div className="md:pr-12">
             <h3 className="text-title">Visibility Dashboards</h3>
-            <p className="mt-4 text-desc">
+            <p className="mt-4 text-body">
               Experience unparalleled transparency with our comprehensive
               visibility dashboards. Designed to keep both you and your
               customers informed in real-time, these dashboards provide a
