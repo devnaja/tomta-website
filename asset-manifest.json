@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c46d8649.css",
-    "main.js": "/static/js/main.de194136.js",
+    "main.css": "/static/css/main.7e9892d9.css",
+    "main.js": "/static/js/main.4a240917.js",
     "static/media/e-invoice1.jpg": "/static/media/e-invoice1.447ed1bced708dd5a6a4.jpg",
     "static/media/e-invoice2.jpg": "/static/media/e-invoice2.e84f2267b93f072a6582.jpg",
     "static/media/e-invoice4.jpg": "/static/media/e-invoice4.e84f2267b93f072a6582.jpg",
@@ -31,7 +31,6 @@
     "static/media/app-dev.jpg": "/static/media/app-dev.792e9bff5e9c6c9611cd.jpg",
     "static/media/bannerPeople.jpg": "/static/media/bannerPeople.064dd7b8559e7fee4302.jpg",
     "static/media/loyaltyImg.jpg": "/static/media/loyaltyImg.0184e1e97b33b4154360.jpg",
-    "static/media/hero-img-5.png": "/static/media/hero-img-5.7a26e35c3816e014f29f.png",
     "static/media/logo-stellar.png": "/static/media/logo-stellar.7ee56b06c543d812c787.png",
     "static/media/logo-lenoxcells.jpg": "/static/media/logo-lenoxcells.770636aee6ce9ccd3a84.jpg",
     "static/media/saudee.png": "/static/media/saudee.54fd422ea1dee78433d8.png",
@@ -43,11 +42,11 @@
     "static/media/waze.jpg": "/static/media/waze.9250df4d65402e4d6bf7.jpg",
     "static/media/accumulative.png": "/static/media/accumulative.63a88ddce92afff30414.png",
     "index.html": "/index.html",
-    "main.c46d8649.css.map": "/static/css/main.c46d8649.css.map",
-    "main.de194136.js.map": "/static/js/main.de194136.js.map"
+    "main.7e9892d9.css.map": "/static/css/main.7e9892d9.css.map",
+    "main.4a240917.js.map": "/static/js/main.4a240917.js.map"
   },
   "entrypoints": [
-    "static/css/main.c46d8649.css",
-    "static/js/main.de194136.js"
+    "static/css/main.7e9892d9.css",
+    "static/js/main.4a240917.js"
   ]
 }
